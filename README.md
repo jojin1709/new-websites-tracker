@@ -1,13 +1,13 @@
 > [!NOTE]
-> **Web Discovery Bot** automatically scrapes new websites, tools, and companies launching every day.
+> **LaunchRadar** - Your daily radar for new websites, tools, and startups.
 
 <div align="center">
 
-# Web Discovery Bot
+# ◉ LaunchRadar
 
-Automated bot that discovers the latest websites, tools, and companies from multiple sources — every single day.
+Automated bot that discovers the latest websites, tools, and companies launching every day.
 
-**This repository contains the full scraper agent and dashboard, deployable to Vercel with one click.**
+**Live Demo:** [new-websites-tracker.vercel.app](https://new-websites-tracker.vercel.app/)
 
 ---
 
@@ -17,203 +17,103 @@ Automated bot that discovers the latest websites, tools, and companies from mult
 
 ---
 
-## Table of Contents
+## What is LaunchRadar?
 
-- [What is Web Discovery Bot?](#what-is-web-discovery-bot)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Key Capabilities](#key-capabilities)
-- [Data Sources](#data-sources)
-- [Architecture](#architecture)
-- [Deployment](#deployment)
-- [Configuration](#configuration)
-- [Tech Stack](#tech-stack)
-- [Limitations](#limitations)
-- [License](#license)
-- [Developer](#developer)
-- [Community and Support](#community-and-support)
+LaunchRadar scans multiple platforms daily to find new websites, tools, startups, and open-source projects. Everything is aggregated into one clean, searchable dashboard.
 
-## What is Web Discovery Bot?
+### Data Sources
 
-Web Discovery Bot is an automated discovery engine that scans multiple platforms daily to find new websites, tools, startups, and open-source projects.
-
-It aggregates data from **Product Hunt**, **Hacker News**, and **GitHub Trending**, then presents everything in a beautiful, searchable dashboard — so you never miss what's new on the internet.
-
-### Why This Exists
-
-New tools, websites, and companies launch every day. It's impossible to keep track of everything manually. Web Discovery Bot closes that gap by automatically scanning the best sources of new tech and delivering a curated feed of discoveries — updated daily.
-
-## Demo
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x400/0f0f23/6366f1?text=Web+Discovery+Bot+Dashboard" alt="Dashboard Preview" width="100%">
-</p>
-
-**Live Demo:** [new-websites-tracker.vercel.app](https://new-websites-tracker.vercel.app/)
+| Source | What It Tracks |
+|--------|----------------|
+| **Hacker News** | Trending tech stories and launches |
+| **Dev.to** | Tech articles and tutorials |
+| **GitHub Trending** | Trending repositories |
+| **Reddit** | r/SideProject, r/startups, r/webdev |
 
 ## Quick Start
-
-### Prerequisites
-
-- **Node.js 18+** or **npm**
-- **Git**
 
 ### Run Locally
 
 ```bash
-# Clone the repository
 git clone https://github.com/jojin1709/new-websites-tracker.git
 cd new-websites-tracker
-
-# Install dependencies
 npm install
-
-# Run the scrapers
-npm run scrape
-
-# Start the development server
-npm run dev
+npm run scrape    # Fetch latest discoveries
+npm run dev       # Start dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the dashboard.
+Open [http://localhost:3000](http://localhost:3000)
 
-> [!TIP]
-> The scraper stores results in `data/discoveries.json`. Run `npm run scrape` periodically to fetch fresh discoveries.
+### Deploy to Vercel
 
-## Key Capabilities
+1. Push to GitHub
+2. Import at [vercel.com/new](https://vercel.com/new)
+3. Click Deploy
 
-- **Multi-Source Scraping** — Aggregates data from Product Hunt, Hacker News, and GitHub Trending in a single run.
-- **Daily Automation** — GitHub Actions workflow runs every day at 8 AM UTC, no manual intervention needed.
-- **Beautiful Dashboard** — Next.js frontend with smooth CSS animations, gradient themes, and responsive design.
-- **Search & Filter** — Instantly search across all discoveries or filter by source.
-- **Auto-Deploy** — Push to GitHub and Vercel auto-deploys the latest version.
-- **Resumable Data** — New scrapes append to existing data without overwriting previous discoveries.
-
-## Data Sources
-
-| Source | What It Tracks | Update Frequency |
-| --- | --- | --- |
-| **Product Hunt** | New products, tools, and startups | Daily |
-| **Hacker News** | Trending tech posts, launches, and discussions | Daily |
-| **GitHub Trending** | Trending repositories and new open-source projects | Daily |
-
-## Architecture
+## How It Works
 
 ```text
-┌─────────────────────────────────────┐
-│       GitHub Actions (Cron)         │
-│     Runs daily at 8 AM UTC          │
-└──────────────────┬──────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────┐
-│         Scraper Engine              │
-│  ┌───────────┐ ┌─────────────────┐  │
-│  │ Product   │ │   Hacker News   │  │
-│  │ Hunt      │ │   API           │  │
-│  └─────┬─────┘ └───────┬─────────┘  │
-│        │               │            │
-│  ┌─────┴─────┐ ┌───────┴─────────┐  │
-│  │  GitHub   │ │   Data Storage  │  │
-│  │ Trending  │ │   (JSON)        │  │
-│  └─────┬─────┘ └───────┬─────────┘  │
-│        │               │            │
-└────────┼───────────────┼────────────┘
-         │               │
-         ▼               ▼
-┌─────────────────────────────────────┐
-│      Vercel Dashboard (Next.js)     │
-│   Search · Filter · Responsive UI   │
-└─────────────────────────────────────┘
+┌─────────────────────────────┐
+│   GitHub Actions (Cron)     │
+│   Runs daily at 8 AM UTC    │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│      Scraper Engine         │
+│  ┌─────────┐ ┌───────────┐  │
+│  │   HN    │ │  Dev.to   │  │
+│  └────┬────┘ └─────┬─────┘  │
+│       │            │        │
+│  ┌────┴────┐ ┌─────┴─────┐  │
+│  │ GitHub  │ │  Reddit   │  │
+│  └────┬────┘ └─────┬─────┘  │
+└───────┼────────────┼────────┘
+        │            │
+        ▼            ▼
+┌─────────────────────────────┐
+│   Vercel Dashboard          │
+│   Search · Filter · Browse  │
+└─────────────────────────────┘
 ```
 
-**How it works:**
+## Features
 
-- **GitHub Actions** triggers the scraper on a daily cron schedule.
-- **Scraper modules** fetch data from each source using HTTP requests and parse HTML/JSON.
-- **Data storage** combines new results with existing discoveries in a local JSON file.
-- **Vercel dashboard** reads the data and displays it in a searchable, filterable UI.
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub.
-2. Go to [vercel.com/new](https://vercel.com/new).
-3. Import your GitHub repository.
-4. Click **Deploy**.
-5. Done! Your dashboard is live.
-
-> [!TIP]
-> Vercel automatically redeploys every time you push to `main`.
-
-### GitHub Actions
-
-1. Go to your repo → **Actions** tab.
-2. Click **"I understand my workflows, go ahead and enable them"**.
-3. The workflow runs daily at 8 AM UTC automatically.
-4. To run manually: **Actions** → **Daily Web Discovery** → **Run workflow**.
-
-## Configuration
-
-### Environment Variables
-
-No environment variables are required for basic usage. The scrapers use public APIs.
-
-### Customizing Sources
-
-Edit the scraper files in `/scrapers` to add or remove data sources:
-
-| File | Source |
-| --- | --- |
-| `scrapers/producthunt.js` | Product Hunt |
-| `scrapers/hackernews.js` | Hacker News |
-| `scrapers/github.js` | GitHub Trending |
-| `scrapers/run.js` | Main runner (combines all sources) |
-
-### Changing Schedule
-
-Edit `.github/workflows/daily-scrape.yml` to change the cron schedule:
-
-```yaml
-schedule:
-  - cron: '0 8 * * *'  # Default: every day at 8 AM UTC
-```
+- **Automated Daily Scraping** - GitHub Actions runs every day
+- **Multiple Sources** - 4 data sources aggregated
+- **Search & Filter** - Find exactly what you're looking for
+- **Modern UI** - Tailwind CSS with smooth animations
+- **Click to Visit** - Every discovery links to the actual website
 
 ## Tech Stack
 
 | Layer | Technology |
-| --- | --- |
-| **Scraper** | Node.js, Axios, Cheerio |
-| **Frontend** | Next.js 14, React 18, CSS Modules |
-| **Styling** | Custom CSS with gradients and animations |
-| **Automation** | GitHub Actions |
-| **Hosting** | Vercel |
+|-------|------------|
+| Scraping | Node.js, Fetch API |
+| Frontend | Next.js 14, React 18 |
+| Styling | Tailwind CSS v4 |
+| Automation | GitHub Actions |
+| Hosting | Vercel |
 
-## Limitations
+## Project Structure
 
-- Scraping depends on public APIs and page structure — changes may break scrapers.
-- Product Hunt scraping may be limited without an API key.
-- Data is stored locally in JSON — no database for persistence across deployments.
-- Rate limits may apply on some APIs during heavy usage.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+```
+├── .github/workflows/    # GitHub Actions
+├── components/           # React components
+├── data/                 # Scraped data (JSON)
+├── pages/                # Next.js pages
+├── scrapers/             # Scraper modules
+├── styles/               # Global CSS
+├── tailwind.config.js    # Tailwind config
+└── postcss.config.js     # PostCSS config
+```
 
 ## Developer
 
-<p align="center">
-  <b>Developed by <a href="https://github.com/jojin1709">JOJIN JOHN</a></b>
-</p>
-
-## Community and Support
-
-- [GitHub Issues](https://github.com/jojin1709/new-websites-tracker/issues) — Report bugs or request features
-- [GitHub](https://github.com/jojin1709/new-websites-tracker) — Source code
+**Built by [Jojin John](https://github.com/jojin1709)**
 
 ---
 
 <p align="center">
-  <b>Built with passion by <a href="https://github.com/jojin1709">JOJIN JOHN</a></b>
+  <b>Made with passion by <a href="https://github.com/jojin1709">Jojin John</a></b>
 </p>
