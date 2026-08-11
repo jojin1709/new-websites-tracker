@@ -50,10 +50,31 @@ export default function Home() {
     <div className="min-h-screen relative overflow-hidden">
       <Head>
         <title>LaunchRadar - Discover What&apos;s New on the Internet</title>
-        <meta name="description" content="Track new websites, tools, and startups launching daily" />
+        <meta name="description" content="Track new websites, tools, and startups launching daily. Your radar for what's launching next." />
+        <meta name="keywords" content="new websites, startups, product hunt, hacker news, github trending, tech news, launches" />
+        <meta name="author" content="Jojin John" />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://new-websites-tracker.vercel.app/" />
+        <meta property="og:title" content="LaunchRadar - Discover What's New on the Internet" />
+        <meta property="og:description" content="Track new websites, tools, and startups launching daily." />
+        <meta property="og:image" content="https://new-websites-tracker.vercel.app/og-image.png" />
+        <meta property="og:site_name" content="LaunchRadar" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://new-websites-tracker.vercel.app/" />
+        <meta name="twitter:title" content="LaunchRadar - Discover What's New on the Internet" />
+        <meta name="twitter:description" content="Track new websites, tools, and startups launching daily." />
+        <meta name="twitter:image" content="https://new-websites-tracker.vercel.app/og-image.png" />
+        <meta name="twitter:creator" content="@jojin1709" />
+        
+        <link rel="canonical" href="https://new-websites-tracker.vercel.app/" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Cursor glow effect */}
       <div 
         className="fixed w-[500px] h-[500px] rounded-full pointer-events-none z-10 transition-all duration-300 ease-out"
         style={{
@@ -64,14 +85,12 @@ export default function Home() {
         }}
       />
 
-      {/* Background orbs */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <div className="absolute -top-[20%] -right-[10%] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(99,102,241,0.15)_0%,transparent_70%)] rounded-full animate-float" />
         <div className="absolute -bottom-[20%] -left-[10%] w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(236,72,153,0.1)_0%,transparent_70%)] rounded-full animate-float-reverse" />
         <div className="absolute top-[40%] left-[40%] w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(6,182,212,0.08)_0%,transparent_70%)] rounded-full animate-float" />
       </div>
 
-      {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 lg:px-12 py-4 bg-dark-900/80 backdrop-blur-xl border-b border-white/5">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold font-display text-white">
           <span className="text-accent-primary"><Icons.Logo /></span>
@@ -80,6 +99,7 @@ export default function Home() {
         <div className="flex items-center gap-8">
           <Link href="/" className="text-sm text-white/60 hover:text-white transition-colors">Home</Link>
           <Link href="/discoveries" className="text-sm text-white/60 hover:text-white transition-colors">Discoveries</Link>
+          <Link href="/about" className="text-sm text-white/60 hover:text-white transition-colors">About</Link>
           <Link href="/discoveries" className="px-5 py-2 bg-gradient-to-r from-accent-primary to-accent-pink text-white text-sm font-semibold rounded-full hover:shadow-lg hover:shadow-accent-primary/30 transition-all duration-300 hover:-translate-y-0.5">
             Explore
           </Link>
@@ -87,11 +107,10 @@ export default function Home() {
       </nav>
 
       <main className="relative z-10">
-        {/* Hero Section */}
         <section className="min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent-primary/10 border border-accent-primary/20 rounded-full text-sm text-accent-primary mb-8 animate-fade-in-down">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            Tracking 16+ sources daily
+            Tracking 4+ sources daily
           </div>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-tight mb-6 animate-fade-in-up">
@@ -115,14 +134,12 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Radar visualization */}
           <div className="mt-20 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="relative w-[280px] h-[280px]">
               <div className="absolute inset-0 border border-accent-primary/30 rounded-full animate-radar" />
               <div className="absolute inset-5 border border-accent-secondary/20 rounded-full animate-radar" style={{ animationDelay: '1s' }} />
               <div className="absolute inset-10 border border-accent-pink/10 rounded-full animate-radar" style={{ animationDelay: '2s' }} />
               
-              {/* Orbiting dots */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <div className="w-10 h-10 bg-dark-700 border border-white/10 rounded-full flex items-center justify-center">
                   <Icons.Rocket />
@@ -144,7 +161,6 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Center */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <div className="text-accent-primary animate-glow"><Icons.Logo /></div>
               </div>
@@ -152,16 +168,15 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Stats Section */}
         <section className="py-16 border-y border-white/5">
           <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
             <div className="text-center">
-              <div className="text-5xl font-bold font-display text-gradient"><AnimatedCounter end={16} />+</div>
+              <div className="text-5xl font-bold font-display text-gradient"><AnimatedCounter end={4} />+</div>
               <div className="text-white/50 mt-2">Data Sources</div>
             </div>
             <div className="hidden md:block w-px h-16 bg-white/10" />
             <div className="text-center">
-              <div className="text-5xl font-bold font-display text-gradient"><AnimatedCounter end={1000} />+</div>
+              <div className="text-5xl font-bold font-display text-gradient"><AnimatedCounter end={500} />+</div>
               <div className="text-white/50 mt-2">Websites Tracked</div>
             </div>
             <div className="hidden md:block w-px h-16 bg-white/10" />
@@ -172,7 +187,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Sources Section */}
         <section id="sources" className="py-24 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold font-display text-center mb-4">Sources We Monitor</h2>
@@ -198,7 +212,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* How It Works */}
         <section className="py-24 px-4 bg-gradient-to-b from-transparent via-accent-primary/5 to-transparent">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold font-display text-center mb-16">How It Works</h2>
@@ -210,7 +223,7 @@ export default function Home() {
                   <Icons.Search />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">We Scan</h3>
-                <p className="text-white/50 leading-relaxed">Every day, our bots scan 16+ platforms for new launches and trending tools</p>
+                <p className="text-white/50 leading-relaxed">Every day, our bots scan multiple platforms for new launches and trending tools</p>
               </div>
               
               <div className="relative p-8 bg-glass rounded-2xl">
@@ -234,7 +247,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="py-24 px-4 text-center">
           <h2 className="text-4xl font-bold font-display mb-4">Ready to Discover?</h2>
           <p className="text-white/50 mb-8">Start exploring thousands of new websites and tools</p>
@@ -245,16 +257,52 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="relative z-10 py-8 px-6 border-t border-white/5">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 font-semibold font-display">
-            <span className="text-accent-primary"><Icons.Logo /></span>
-            LaunchRadar
+      <footer className="relative z-10 py-12 px-6 border-t border-white/5">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+            <div>
+              <div className="flex items-center gap-2 font-bold font-display mb-4">
+                <span className="text-accent-primary"><Icons.Logo /></span>
+                LaunchRadar
+              </div>
+              <p className="text-sm text-white/40">Discover what&apos;s launching next on the internet.</p>
+            </div>
+            
+            <div>
+              <h4 className="font-semibold mb-4">Product</h4>
+              <div className="flex flex-col gap-2">
+                <Link href="/discoveries" className="text-sm text-white/40 hover:text-white transition-colors">Discoveries</Link>
+                <a href="#sources" className="text-sm text-white/40 hover:text-white transition-colors">Sources</a>
+                <Link href="/rss.xml" className="text-sm text-white/40 hover:text-white transition-colors">RSS Feed</Link>
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="font-semibold mb-4">Legal</h4>
+              <div className="flex flex-col gap-2">
+                <Link href="/privacy" className="text-sm text-white/40 hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="/terms" className="text-sm text-white/40 hover:text-white transition-colors">Terms of Service</Link>
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="font-semibold mb-4">Connect</h4>
+              <div className="flex flex-col gap-2">
+                <a href="https://github.com/jojin1709" target="_blank" rel="noopener noreferrer" className="text-sm text-white/40 hover:text-white transition-colors">GitHub</a>
+                <a href="https://twitter.com/jojin1709" target="_blank" rel="noopener noreferrer" className="text-sm text-white/40 hover:text-white transition-colors">Twitter</a>
+                <Link href="/about" className="text-sm text-white/40 hover:text-white transition-colors">About</Link>
+              </div>
+            </div>
           </div>
-          <p className="text-sm text-white/40">
-            Built by <a href="https://github.com/jojin1709" className="text-accent-primary hover:underline">Jojin John</a>
-          </p>
+          
+          <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-white/30">
+              &copy; {new Date().getFullYear()} LaunchRadar. All rights reserved.
+            </p>
+            <p className="text-sm text-white/30">
+              Built by <a href="https://github.com/jojin1709" className="text-accent-primary hover:underline">Jojin John</a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>

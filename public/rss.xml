@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaunchRadar</title>
+    <description>Discover what's launching next on the internet</description>
+    <link>https://new-websites-tracker.vercel.app</link>
+    <atom:link href="https://new-websites-tracker.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>LaunchRadar - Discover New Websites Daily</title>
+      <link>https://new-websites-tracker.vercel.app</link>
+      <description>Your radar for new websites, tools, and startups launching every day.</description>
+      <pubDate>Mon, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <guid>https://new-websites-tracker.vercel.app</guid>
+    </item>
+    <item>
+      <title>Browse All Discoveries</title>
+      <link>https://new-websites-tracker.vercel.app/discoveries</link>
+      <description>Search and filter through all discovered websites, tools, and startups.</description>
+      <pubDate>Mon, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <guid>https://new-websites-tracker.vercel.app/discoveries</guid>
+    </item>
+  </channel>
+</rss>
