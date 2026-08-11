@@ -3,135 +3,85 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'discoveries.json');
 
-// Simple, reliable scrapers that won't fail
-async function fetchJSON(url, timeout = 10000) {
-  const response = await fetch(url, {
-    signal: AbortSignal.timeout(timeout),
-    headers: { 'User-Agent': 'WebDiscoveryBot/1.0' }
-  });
-  return response.json();
-}
-
-async function scrapeHackerNews() {
-  try {
-    const ids = await fetchJSON('https://hacker-news.firebaseio.com/v0/topstories.json');
-    const stories = [];
-    for (const id of ids.slice(0, 20)) {
-      try {
-        const story = await fetchJSON(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-        if (story && story.title && story.url) {
-          stories.push({
-            name: story.title,
-            tagline: new URL(story.url).hostname,
-            url: story.url,
-            votes: story.score || 0,
-            source: 'Hacker News',
-            scrapedAt: new Date().toISOString()
-          });
-        }
-      } catch (e) {}
-    }
-    return stories;
-  } catch (e) {
-    console.error('HN error:', e.message);
-    return [];
-  }
-}
-
-async function scrapeDevTo() {
-  try {
-    const articles = await fetchJSON('https://dev.to/api/articles?top=7&per_page=15');
-    return articles.map(a => ({
-      name: a.title,
-      tagline: a.description || 'Dev.to',
-      url: a.url,
-      votes: a.positive_reactions_count || 0,
-      source: 'Dev.to',
-      scrapedAt: new Date().toISOString()
-    }));
-  } catch (e) {
-    console.error('Dev.to error:', e.message);
-    return [];
-  }
-}
-
-async function scrapeGitHubTrending() {
-  try {
-    const response = await fetch('https://github.com/trending', {
-      signal: AbortSignal.timeout(10000),
-      headers: { 'User-Agent': 'Mozilla/5.0' }
-    });
-    const html = await response.text();
-    const repos = [];
-    const regex = /<h2[^>]*>[\s\S]*?<a[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
-    let match;
-    while ((match = regex.exec(html)) !== null) {
-      const url = match[1];
-      const name = match[2].replace(/\s+/g, '').trim();
-      if (name && url) {
-        repos.push({
-          name,
-          tagline: 'GitHub Trending',
-          url: `https://github.com${url}`,
-          stars: Math.floor(Math.random() * 10000),
-          source: 'GitHub Trending',
-          scrapedAt: new Date().toISOString()
-        });
-      }
-    }
-    return repos.slice(0, 20);
-  } catch (e) {
-    console.error('GitHub error:', e.message);
-    return [];
-  }
-}
-
-async function scrapeReddit() {
-  const subreddits = ['SideProject', 'startups', 'webdev'];
-  const posts = [];
-  for (const sub of subreddits) {
-    try {
-      const data = await fetchJSON(`https://www.reddit.com/r/${sub}/hot.json?limit=10`);
-      if (data?.data?.children) {
-        for (const p of data.data.children) {
-          if (p.data?.title && p.data?.url) {
-            posts.push({
-              name: p.data.title,
-              tagline: `r/${sub}`,
-              url: p.data.url_overridden_by_dest || `https://reddit.com${p.data.permalink}`,
-              votes: p.data.ups || 0,
-              source: `Reddit`,
-              scrapedAt: new Date().toISOString()
-            });
-          }
-        }
-      }
-    } catch (e) {}
-  }
-  return posts;
-}
+const scrapers = [
+  // APIs (most reliable)
+  { name: 'Hacker News', fn: () => require('./hackernews').scrapeHackerNews() },
+  { name: 'HN Best', fn: () => require('./hackernews-best').scrapeHackerNewsBest() },
+  { name: 'HN Show', fn: () => require('./hackernews-show').scrapeHackerNewsShow() },
+  { name: 'HN Ask', fn: () => require('./hackernews-ask').scrapeHackerNewsAsk() },
+  { name: 'Dev.to', fn: () => require('./devto').scrapeDevTo() },
+  { name: 'Dev.to Rising', fn: () => require('./devto-recent').scrapeDevToRecent() },
+  { name: 'GitHub Trending', fn: () => require('./github').scrapeGitHubTrending() },
+  { name: 'GitHub Daily', fn: () => require('./github-daily').scrapeGitHubTrendingDaily() },
+  { name: 'GitHub New', fn: () => require('./github-api').scrapeGitHubRepos() },
+  { name: 'GitHub Explore', fn: () => require('./github-explore').scrapeGitHubExplore() },
+  { name: 'Reddit', fn: () => require('./reddit').scrapeReddit() },
+  { name: 'Reddit Programming', fn: () => require('./reddit-programming').scrapeRedditProgramming() },
+  { name: 'Reddit JavaScript', fn: () => require('./reddit-javascript').scrapeRedditJavaScript() },
+  { name: 'Reddit Python', fn: () => require('./reddit-python').scrapeRedditPython() },
+  { name: 'Reddit ML', fn: () => require('./reddit-ml').scrapeRedditMachineLearning() },
+  { name: 'Reddit WebDev', fn: () => require('./reddit-webdev').scrapeRedditWebDev() },
+  { name: 'Lobste.rs', fn: () => require('./lobsters').scrapeLobsters() },
+  { name: 'Papers With Code', fn: () => require('./paperswithcode').scrapePapersWithCode() },
+  { name: 'Hugging Face', fn: () => require('./huggingface').scrapeHuggingFace() },
+  { name: 'PyPI', fn: () => require('./pypi').scrapePyPI() },
+  { name: 'npm Weekly', fn: () => require('./npm').scrapeNpmWeekly() },
+  { name: 'RubyGems', fn: () => require('./rubygems').scrapeRubyGems() },
+  
+  // RSS Feeds
+  { name: 'TechCrunch RSS', fn: () => require('./techcrunch-rss').scrapeTechCrunchRSS() },
+  { name: 'Ars Technica', fn: () => require('./arstechnica').scrapeArsTechnica() },
+  { name: 'The Verge', fn: () => require('./theverge').scrapeTheVerge() },
+  { name: 'Wired', fn: () => require('./wired').scrapeWired() },
+  { name: 'Mashable', fn: () => require('./mashable').scrapeMashable() },
+  { name: 'VentureBeat', fn: () => require('./venturebeat').scrapeVentureBeat() },
+  { name: 'Engadget', fn: () => require('./engadget').scrapeEngadget() },
+  { name: 'TechRadar', fn: () => require('./techradar').scrapeTechRadar() },
+  { name: 'ReadWrite', fn: () => require('./readwrite').scrapeReadwrite() },
+  { name: 'Phoronix', fn: () => require('./phoronix').scrapePhoronix() },
+  { name: 'LWN', fn: () => require('./lwn').scrapeLWN() },
+  { name: 'Smashing Mag', fn: () => require('./smashingmag').scrapeSmashingMag() },
+  { name: 'CSS Tricks', fn: () => require('./csstricks').scrapeCSSTricks() },
+  { name: 'Codrops', fn: () => require('./codrops').scrapeCodrops() },
+  { name: 'Indie Hackers RSS', fn: () => require('./indiehackers-rss').scrapeIndieHackersRSS() },
+  { name: 'Hashnode', fn: () => require('./hashnode').scrapeHashnode() },
+  { name: 'AI News', fn: () => require('./ainews').scrapeAINews() },
+  
+  // HTML Scraping
+  { name: 'Product Hunt RSS', fn: () => require('./producthunt-rss').scrapeProductHuntRSS() },
+  { name: 'Dribbble', fn: () => require('./dribbble').scrapeDribbble() },
+  { name: 'Behance', fn: () => require('./behance').scrapeBehance() },
+  { name: 'CodePen', fn: () => require('./codepen').scrapeCodePen() },
+  { name: 'StackShare', fn: () => require('./stackshare').scrapeStackShare() },
+  { name: 'BetaPage', fn: () => require('./betapage').scrapeBetaPage() },
+  { name: 'Killer Startups', fn: () => require('./killerstartups').scrapeKillercoding() },
+  { name: 'Startup Stash', fn: () => require('./startupstash').scrapeStartupStash() },
+  { name: 'Wellfound', fn: () => require('./wellfound').scrapeWellfound() },
+  { name: 'AngelList', fn: () => require('./angellist').scrapeAngelList() },
+  { name: 'DevHunt', fn: () => require('./devhunt').scrapeDevhunt() },
+  { name: 'GitLab', fn: () => require('./gitlab').scrapeGitLabTrending() },
+  { name: 'Tildes', fn: () => require('./tildes').scrapeTildes() },
+  { name: 'Substack', fn: () => require('./substack').scrapeSubstack() },
+];
 
 async function runScrapers() {
-  console.log('Starting scraper...\n');
+  console.log(`Starting scraper with ${scrapers.length} sources...\n`);
   
-  const results = await Promise.allSettled([
-    scrapeHackerNews(),
-    scrapeDevTo(),
-    scrapeGitHubTrending(),
-    scrapeReddit()
-  ]);
-  
-  const sources = ['Hacker News', 'Dev.to', 'GitHub Trending', 'Reddit'];
   const allItems = [];
   
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      allItems.push(...r.value);
-      console.log(`✓ ${sources[i]}: ${r.value.length}`);
-    } else {
-      console.log(`✗ ${sources[i]}: failed`);
+  for (const scraper of scrapers) {
+    try {
+      const items = await scraper.fn();
+      if (Array.isArray(items) && items.length > 0) {
+        allItems.push(...items);
+        console.log(`✓ ${scraper.name}: ${items.length}`);
+      } else {
+        console.log(`○ ${scraper.name}: 0`);
+      }
+    } catch (error) {
+      console.log(`✗ ${scraper.name}: ${error.message}`);
     }
-  });
+  }
   
   console.log(`\nTotal: ${allItems.length}`);
   
@@ -144,7 +94,7 @@ async function runScrapers() {
   
   const existingUrls = new Set(existing.map(i => i.url));
   const newItems = allItems.filter(i => i.url && !existingUrls.has(i.url));
-  const combined = [...newItems, ...existing].slice(0, 1000);
+  const combined = [...newItems, ...existing].slice(0, 5000);
   
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(combined, null, 2));
