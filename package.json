@@ -1,0 +1,22 @@
+{
+  "name": "web-discovery-bot",
+  "version": "1.0.0",
+  "description": "Bot that scrapes new websites, companies, and tools daily",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node scrapers/run.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
