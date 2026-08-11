@@ -1,61 +1,44 @@
 const fs = require('fs');
 const path = require('path');
 
-const { scrapeProductHunt } = require('./producthunt');
-const { scrapeHackerNews } = require('./hackernews');
-const { scrapeGitHubTrending } = require('./github');
-const { scrapeReddit } = require('./reddit');
-const { scrapeDevTo } = require('./devto');
-const { scrapeBetaList } = require('./betalist');
-const { scrapeIndieHackers } = require('./indiehackers');
-const { scrapeLaunchingNext } = require('./launchingnext');
-const { scrapeAlternativeTo } = require('./alternativeto');
-const { scrapeHackerNewsNew } = require('./hackernews-new');
-const { scrapeProductHuntTopics } = require('./producthunt-topics');
-const { scrapeTechCrunch } = require('./techcrunch');
-const { scrapeSaaSHub } = require('./saashub');
-const { scrapeF6S } = require('./f6s');
-const { scrapeWIP } = require('./wip');
-const { scrapeMakers } = require('./makers');
+const scrapers = [
+  { name: 'Product Hunt', fn: () => require('./producthunt').scrapeProductHunt() },
+  { name: 'Hacker News', fn: () => require('./hackernews').scrapeHackerNews() },
+  { name: 'GitHub Trending', fn: () => require('./github').scrapeGitHubTrending() },
+  { name: 'Reddit', fn: () => require('./reddit').scrapeReddit() },
+  { name: 'Dev.to', fn: () => require('./devto').scrapeDevTo() },
+  { name: 'BetaList', fn: () => require('./betalist').scrapeBetaList() },
+  { name: 'Indie Hackers', fn: () => require('./indiehackers').scrapeIndieHackers() },
+  { name: 'Launching Next', fn: () => require('./launchingnext').scrapeLaunchingNext() },
+  { name: 'AlternativeTo', fn: () => require('./alternativeto').scrapeAlternativeTo() },
+  { name: 'HN New', fn: () => require('./hackernews-new').scrapeHackerNewsNew() },
+  { name: 'TechCrunch', fn: () => require('./techcrunch').scrapeTechCrunch() },
+  { name: 'SaaSHub', fn: () => require('./saashub').scrapeSaaSHub() },
+  { name: 'F6S', fn: () => require('./f6s').scrapeF6S() },
+  { name: 'WIP', fn: () => require('./wip').scrapeWIP() },
+  { name: 'Makers', fn: () => require('./makers').scrapeMakers() },
+];
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'discoveries.json');
 
 async function runScrapers() {
   console.log('Starting web discovery scan...\n');
   
-  const scrapers = [
-    { name: 'Product Hunt', fn: scrapeProductHunt },
-    { name: 'Hacker News', fn: scrapeHackerNews },
-    { name: 'GitHub Trending', fn: scrapeGitHubTrending },
-    { name: 'Reddit', fn: scrapeReddit },
-    { name: 'Dev.to', fn: scrapeDevTo },
-    { name: 'BetaList', fn: scrapeBetaList },
-    { name: 'Indie Hackers', fn: scrapeIndieHackers },
-    { name: 'Launching Next', fn: scrapeLaunchingNext },
-    { name: 'AlternativeTo', fn: scrapeAlternativeTo },
-    { name: 'HN New', fn: scrapeHackerNewsNew },
-    { name: 'PH Topics', fn: scrapeProductHuntTopics },
-    { name: 'TechCrunch', fn: scrapeTechCrunch },
-    { name: 'SaaSHub', fn: scrapeSaaSHub },
-    { name: 'F6S', fn: scrapeF6S },
-    { name: 'WIP', fn: scrapeWIP },
-    { name: 'Makers', fn: scrapeMakers }
-  ];
-  
-  const results = await Promise.allSettled(
-    scrapers.map(s => s.fn())
-  );
-  
   const allItems = [];
   
-  results.forEach((result, index) => {
-    if (result.status === 'fulfilled' && Array.isArray(result.value)) {
-      allItems.push(...result.value);
-      console.log(`✓ ${scrapers[index].name}: ${result.value.length} items`);
-    } else {
-      console.log(`✗ ${scrapers[index].name}: failed`);
+  for (const scraper of scrapers) {
+    try {
+      const items = await scraper.fn();
+      if (Array.isArray(items) && items.length > 0) {
+        allItems.push(...items);
+        console.log(`✓ ${scraper.name}: ${items.length} items`);
+      } else {
+        console.log(`○ ${scraper.name}: 0 items`);
+      }
+    } catch (error) {
+      console.log(`✗ ${scraper.name}: ${error.message}`);
     }
-  });
+  }
   
   console.log(`\nTotal scraped: ${allItems.length} items`);
   
@@ -81,4 +64,7 @@ async function runScrapers() {
   console.log('\nDone!');
 }
 
-runScrapers().catch(console.error);
+runScrapers().catch(error => {
+  console.error('Fatal error:', error);
+  process.exit(1);
+});
