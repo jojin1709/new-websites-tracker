@@ -2,6 +2,23 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
+const SOURCES = [
+  { name: 'Product Hunt', icon: '🚀', color: '#ff6154' },
+  { name: 'Hacker News', icon: '📰', color: '#ff6600' },
+  { name: 'GitHub Trending', icon: '💻', color: '#8b5cf6' },
+  { name: 'Reddit', icon: '🤖', color: '#ff4500' },
+  { name: 'Dev.to', icon: '👨‍💻', color: '#0a0a0a' },
+  { name: 'BetaList', icon: ' beta', color: '#00d4aa' },
+  { name: 'Indie Hackers', icon: '🎯', color: '#0e2439' },
+  { name: 'Launching Next', icon: '🌟', color: '#6366f1' },
+  { name: 'AlternativeTo', icon: '🔄', color: '#ff6b6b' },
+  { name: 'TechCrunch', icon: '📊', color: '#0a9e01' },
+  { name: 'SaaSHub', icon: '☁️', color: '#3b82f6' },
+  { name: 'F6S', icon: '🚀', color: '#8b5cf6' },
+  { name: 'WIP', icon: '⚡', color: '#f59e0b' },
+  { name: 'Makers', icon: '🛠️', color: '#ec4899' },
+];
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -29,11 +46,23 @@ export default function Home() {
           <p className={styles.description}>
             Discover new websites, tools, and companies launching every day
           </p>
-          <div className={styles.badges}>
-            <span className={styles.badge}>Product Hunt</span>
-            <span className={styles.badge}>Hacker News</span>
-            <span className={styles.badge}>GitHub Trending</span>
+          
+          <div className={styles.sourceGrid}>
+            {SOURCES.map((source, i) => (
+              <div 
+                key={i} 
+                className={styles.sourceItem}
+                style={{ 
+                  borderColor: `${source.color}40`,
+                  animationDelay: `${i * 0.05}s`
+                }}
+              >
+                <span className={styles.sourceIcon}>{source.icon}</span>
+                <span className={styles.sourceName}>{source.name}</span>
+              </div>
+            ))}
           </div>
+          
           <Link href="/discoveries" className={styles.ctaButton}>
             View All Discoveries →
           </Link>
@@ -41,34 +70,34 @@ export default function Home() {
 
         <div className={styles.stats}>
           <div className={styles.statCard}>
-            <div className={styles.statNumber}>150+</div>
-            <div className={styles.statLabel}>Daily Discoveries</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>3</div>
+            <div className={styles.statNumber}>16+</div>
             <div className={styles.statLabel}>Data Sources</div>
           </div>
           <div className={styles.statCard}>
             <div className={styles.statNumber}>24/7</div>
             <div className={styles.statLabel}>Auto Updates</div>
           </div>
+          <div className={styles.statCard}>
+            <div className={styles.statNumber}>1000+</div>
+            <div className={styles.statLabel}>Websites Tracked</div>
+          </div>
         </div>
 
         <div className={styles.features}>
           <div className={styles.featureCard}>
-            <div className={styles.icon}>🚀</div>
-            <h3>Real-time Updates</h3>
-            <p>Automated daily scraping of the latest launches</p>
-          </div>
-          <div className={styles.featureCard}>
             <div className={styles.icon}>🔍</div>
-            <h3>Multi-Source</h3>
-            <p>Aggregated from multiple platforms</p>
+            <h3>Multi-Source Aggregation</h3>
+            <p>Scrapes from 16+ platforms including Product Hunt, Reddit, Dev.to, and more</p>
           </div>
           <div className={styles.featureCard}>
-            <div className={styles.icon}>📊</div>
-            <h3>Trending Data</h3>
-            <p>See what's popular and gaining traction</p>
+            <div className={styles.icon}>⚡</div>
+            <h3>Real-time Updates</h3>
+            <p>GitHub Actions runs daily to keep the database fresh with new discoveries</p>
+          </div>
+          <div className={styles.featureCard}>
+            <div className={styles.icon}>🎯</div>
+            <h3>Smart Filtering</h3>
+            <p>Search and filter by source to find exactly what you're looking for</p>
           </div>
         </div>
       </main>
