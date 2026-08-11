@@ -1,5 +1,445 @@
 [
   {
+    "name": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+    "tagline": "github.com",
+    "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+    "votes": 224,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.204Z"
+  },
+  {
+    "name": "OpenSSH 10.5/10.5p1",
+    "tagline": "www.openssh.org",
+    "url": "https://www.openssh.org/releasenotes.html#10.5",
+    "votes": 34,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.237Z"
+  },
+  {
+    "name": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "tagline": "stolen-thoughts.com",
+    "url": "https://stolen-thoughts.com/",
+    "votes": 300,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.268Z"
+  },
+  {
+    "name": "Mojo 1.0",
+    "tagline": "www.modular.com",
+    "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+    "votes": 52,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.303Z"
+  },
+  {
+    "name": "How We Used To Get Jobs: A Newspaper Classifieds Story",
+    "tagline": "ironicsans.ghost.io",
+    "url": "https://ironicsans.ghost.io/how-we-used-to-get-jobs/",
+    "votes": 23,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.334Z"
+  },
+  {
+    "name": "Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo",
+    "tagline": "photosynthesis.camera",
+    "url": "https://photosynthesis.camera",
+    "votes": 75,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.369Z"
+  },
+  {
+    "name": "England set to be one of the first countries to eliminate hepatitis C",
+    "tagline": "www.bbc.com",
+    "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+    "votes": 418,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.399Z"
+  },
+  {
+    "name": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
+    "tagline": "github.com",
+    "url": "https://github.com/TheRealYT/git-knife",
+    "votes": 78,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.433Z"
+  },
+  {
+    "name": "Manus will return to operating as an independent company",
+    "tagline": "manus.im",
+    "url": "https://manus.im/blog/a-note-to-our-users",
+    "votes": 91,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.463Z"
+  },
+  {
+    "name": "Jolt: Clojure compiler implemented with Chez Scheme",
+    "tagline": "jolt-lang.github.io",
+    "url": "https://jolt-lang.github.io",
+    "votes": 83,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.496Z"
+  },
+  {
+    "name": "The Tradeoffs Facing Japan's Economy",
+    "tagline": "www.emergingtrajectories.com",
+    "url": "https://www.emergingtrajectories.com/lh/japan-economy-tradeoffs/",
+    "votes": 10,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.528Z"
+  },
+  {
+    "name": "As AI eats the web, the internet’s collective memory is disappearing",
+    "tagline": "thewalrus.ca",
+    "url": "https://thewalrus.ca/google-search-is-dying/",
+    "votes": 786,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.560Z"
+  },
+  {
+    "name": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
+    "tagline": "developers.googleblog.com",
+    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+    "votes": 123,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.591Z"
+  },
+  {
+    "name": "Nvidia's Risky Business",
+    "tagline": "stratechery.com",
+    "url": "https://stratechery.com/2026/nvidias-risky-business/",
+    "votes": 218,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.624Z"
+  },
+  {
+    "name": "OpenAI’s head of ethics leaves less than a year after joining",
+    "tagline": "www.ft.com",
+    "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+    "votes": 65,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.656Z"
+  },
+  {
+    "name": "Archive of Animal Photography Reveals 18,000 Species and Counting",
+    "tagline": "www.smithsonianmag.com",
+    "url": "https://www.smithsonianmag.com/science-nature/this-amazing-archive-of-animal-photography-reveals-18000-species-and-counting-heres-how-joel-sartore-built-his-photo-ark-180989282/",
+    "votes": 19,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.689Z"
+  },
+  {
+    "name": "Launch HN: Keet (YC S24) – An app to create video courses on anything",
+    "tagline": "www.trykeet.com",
+    "url": "https://www.trykeet.com/",
+    "votes": 27,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.720Z"
+  },
+  {
+    "name": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+    "tagline": "github.com",
+    "url": "https://github.com/antirez/h3.c",
+    "votes": 403,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.752Z"
+  },
+  {
+    "name": "What I learned by putting GitHub Copilot behind a MitM proxy",
+    "tagline": "www.lighthousenewsletter.com",
+    "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+    "votes": 110,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.783Z"
+  },
+  {
+    "name": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "tagline": "cactuscompute.com",
+    "url": "https://cactuscompute.com/needle",
+    "votes": 488,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-11T19:09:56.815Z"
+  },
+  {
+    "name": "Hey all! I’m Jem, the DEV Community Program Coordinator",
+    "tagline": "It feels good to finally be writing this.  I've been working part-time behind the scenes at DEV for...",
+    "url": "https://dev.to/devteam/hey-all-im-jem-the-dev-community-program-coordinator-2g2",
+    "votes": 93,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.090Z"
+  },
+  {
+    "name": "General Challenge Updates Moving Forward",
+    "tagline": "Hey all, as part of our expanding challenge program we want to update and clarify some challenge...",
+    "url": "https://dev.to/devteam/general-challenge-updates-moving-forward-5h39",
+    "votes": 40,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.090Z"
+  },
+  {
+    "name": "I Joined dev.to because...",
+    "tagline": "Why not?     Just kidding, there is more to it. Just thought it flows well with the title...",
+    "url": "https://dev.to/francistrdev/i-joined-devto-because-fl0",
+    "votes": 84,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.090Z"
+  },
+  {
+    "name": "I Recreated Management With AI: 9 Things I Do Differently",
+    "tagline": "I stopped treating permission prompts as the safety system, then spent four and a half months writing 134 standing rules to replace them. Nine things I do differently with AI, and the proof to back it up.",
+    "url": "https://dev.to/anchildress1/i-recreated-management-with-ai-9-things-i-do-differently-3j8g",
+    "votes": 62,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.090Z"
+  },
+  {
+    "name": "What was your win this week?",
+    "tagline": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...",
+    "url": "https://dev.to/devteam/what-was-your-win-this-week-3n23",
+    "votes": 38,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "🥁 Mâm Cơm Landing Page: I built a Vietnamese dinner tray on a 3,000-year-old bronze drum",
+    "tagline": "This is a submission for Frontend Challenge - Comfort Food Edition, Perfect Landing           What I...",
+    "url": "https://dev.to/minhlong2605/mam-com-landing-page-i-built-a-vietnamese-dinner-tray-on-a-3000-year-old-bronze-drum-3e6h",
+    "votes": 67,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor",
+    "tagline": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.           Prefer...",
+    "url": "https://dev.to/georgekobaidze/backend-engineer-me-ships-a-browser-game-with-one-unintentional-system-requirement-my-monitor-1ojd",
+    "votes": 42,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "You Don't Have an AI Problem You Have a Thinking Problem.",
+    "tagline": "I used to think AI was making me lazy. I was wrong. AI wasn't making me lazy I was using AI as an...",
+    "url": "https://dev.to/harsh2644/you-dont-have-an-ai-problem-you-have-a-thinking-problem-5f07",
+    "votes": 39,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "How I Smashed a Bug in a Shared Authentication Library",
+    "tagline": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  This happened a...",
+    "url": "https://dev.to/gramli/how-i-smashed-a-bug-in-a-shared-authentication-library-33fm",
+    "votes": 88,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "Teaching Your AI Web Design Some Actual Taste",
+    "tagline": "Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is...",
+    "url": "https://dev.to/lovestaco/teaching-your-ai-web-design-some-actual-taste-4p13",
+    "votes": 41,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "What Would You Tell Someone Early in Their Career?",
+    "tagline": "📌 TL;DR  I'm still early in my own career, and lately I've been thinking about how much advice we...",
+    "url": "https://dev.to/hemapriya_kanagala/what-would-you-tell-someone-early-in-their-career-1k76",
+    "votes": 66,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "The Day I Became a Bug Hunter",
+    "tagline": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  Did anyone ask for...",
+    "url": "https://dev.to/konark_13/the-day-i-became-a-bug-hunter-3e41",
+    "votes": 34,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "I Built a ₹15 Landing Page About Mumbai's Soul Food",
+    "tagline": "A scroll-driven cinematic page about vada pav. No framework, no build step. Just HTML, CSS, and a story worth telling. Dev.to Frontend Challenge submission.",
+    "url": "https://dev.to/sarvar_04/i-built-a-15-landing-page-about-mumbais-soul-food-1l78",
+    "votes": 25,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "When Your VPS Never Had the Resources It Was Sold With",
+    "tagline": "I needed a VPS to run CyberPanel. Simple enough: 1 vCPU, 1 GB RAM, 10 GB SSD, IPv6 only. CyberPanel...",
+    "url": "https://dev.to/pascal_cescato_692b7a8a20/when-your-vps-never-had-the-resources-it-was-sold-with-302o",
+    "votes": 58,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "Ayo GitHub Quietly Killed the Unreviewable Mega-PR",
+    "tagline": "If you've ever opened a PR with 47 changed files and a diff so long GitHub just gives up and shows...",
+    "url": "https://dev.to/lovestaco/ayo-github-quietly-killed-the-unreviewable-mega-pr-3868",
+    "votes": 33,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-11T19:09:56.091Z"
+  },
+  {
+    "name": "<svgdata-component=\"Octicon\"aria-hidden=\"true\"focusable=\"false\"class=\"octiconocticon-mark-github\"viewBox=\"002424\"width=\"32\"height=\"32\"fill=\"currentColor\"display=\"inline-block\"overflow=\"visible\"style=\"vertical-align:text-bottom\"><pathd=\"M10.22617.284c-2.965-.36-5.054-2.493-5.054-5.2560-1.123.404-2.3361.078-3.144-.292-.741-.247-2.314.09-2.965.898-.1122.111.362.831.01.853-.2691.752-.4042.853-.4041.101.999.1352.807.382.696-.6291.932-1.12.83-.988.315.606.362.179.0672.942.72.8541.10121.1013.16702.763-2.0894.852-5.0985.234.763.4941.281.5721.282.807v2.336c0.674.5611.0561.235.7864.066-1.557.255-5.6157.255-10.646C23.56.18818.334111.97815.621.56.188.512.545c04.9863.1679.127.43510.669.606.2251.19-.181.19-.786V20.63a2.92.9001-1.078.224c-1.4830-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.270-.27.45-.471.898-.471.65201.213.4041.7971.235.45.651.921.9431.483.943.5610.92-.2021.437-.719.382-.381.674-.718.944-.943\"></path></svg>",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/",
+    "stars": 9559,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">cathrynlavery/</span>diagram-design",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "stars": 6550,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">msitarzewski/</span>agency-agents",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "stars": 5779,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">semantica-agi/</span>semantica",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/semantica-agi/semantica",
+    "stars": 7588,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">nvm-sh/</span>nvm",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/nvm-sh/nvm",
+    "stars": 7150,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">addyosmani/</span>agent-skills",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "stars": 9587,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">ZhuLinsen/</span>daily_stock_analysis",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "stars": 1749,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">vitali87/</span>code-graph-rag",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "stars": 3525,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">anthropics/</span>skills",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 7511,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">3b1b/</span>manim",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/3b1b/manim",
+    "stars": 1532,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">HKUDS/</span>DeepTutor",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "stars": 6616,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">stablyai/</span>orca",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/stablyai/orca",
+    "stars": 6168,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">paperclipai/</span>paperclip",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/paperclipai/paperclip",
+    "stars": 1712,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">huggingface/</span>transformers",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/huggingface/transformers",
+    "stars": 6143,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">harveyai/</span>harvey-labs",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/harveyai/harvey-labs",
+    "stars": 9051,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">jaywcjlove/</span>awesome-mac",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/jaywcjlove/awesome-mac",
+    "stars": 4707,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">calesthio/</span>OpenMontage",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "stars": 6842,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">practical-tutorials/</span>project-based-learning",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "stars": 3263,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">PrimeIntellect-ai/</span>prime-agent",
+    "tagline": "GitHub Trending",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "stars": 7224,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"24\"viewBox=\"002424\"version=\"1.1\"width=\"24\"data-view-component=\"true\"class=\"octiconocticon-mark-github\"><pathd=\"M10.22617.284c-2.965-.36-5.054-2.493-5.054-5.2560-1.123.404-2.3361.078-3.144-.292-.741-.247-2.314.09-2.965.898-.1122.111.362.831.01.853-.2691.752-.4042.853-.4041.101.999.1352.807.382.696-.6291.932-1.12.83-.988.315.606.362.179.0672.942.72.8541.10121.1013.16702.763-2.0894.852-5.0985.234.763.4941.281.5721.282.807v2.336c0.674.5611.0561.235.7864.066-1.557.255-5.6157.255-10.646C23.56.18818.334111.97815.621.56.188.512.545c04.9863.1679.127.43510.669.606.2251.19-.181.19-.786V20.63a2.92.9001-1.078.224c-1.4830-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.270-.27.45-.471.898-.471.65201.213.4041.7971.235.45.651.921.9431.483.943.5610.92-.2021.437-.719.382-.381.674-.718.944-.943\"></path></svg>",
+    "tagline": "GitHub Trending",
+    "url": "https://github.comhttps://github.com",
+    "stars": 8084,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-11T19:09:57.264Z"
+  },
+  {
     "name": "Cursor AI",
     "tagline": "The AI-first code editor. Write, edit, and chat with your codebase.",
     "url": "https://cursor.sh",
