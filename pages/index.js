@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -7,8 +8,15 @@ export default function Home() {
       <Head>
         <title>Web Discovery Bot - Find New Websites & Tools Daily</title>
         <meta name="description" content="Discover the latest websites, tools, and companies launching every day" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <nav className={styles.nav}>
+        <div className={styles.logo}>Web Discovery Bot</div>
+        <div className={styles.navLinks}>
+          <Link href="/" className={styles.navLink}>Home</Link>
+          <Link href="/discoveries" className={styles.navLink}>Discoveries</Link>
+        </div>
+      </nav>
 
       <main className={styles.main}>
         <div className={styles.hero}>
@@ -26,6 +34,9 @@ export default function Home() {
             <span className={styles.badge}>Hacker News</span>
             <span className={styles.badge}>GitHub Trending</span>
           </div>
+          <Link href="/discoveries" className={styles.ctaButton}>
+            View All Discoveries →
+          </Link>
         </div>
 
         <div className={styles.stats}>

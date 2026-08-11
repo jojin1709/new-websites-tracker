@@ -2,12 +2,53 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(15, 15, 35, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6366f1, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: #6366f1;
 }
 
 .main {
-  padding: 4rem 2rem;
+  padding: 8rem 2rem 4rem;
   max-width: 1200px;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -67,13 +108,14 @@
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
   animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 .badge {
   padding: 0.5rem 1rem;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
@@ -83,8 +125,26 @@
 
 .badge:hover {
   background: rgba(99, 102, 241, 0.2);
-  border-color: var(--primary);
+  border-color: #6366f1;
   transform: translateY(-2px);
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #6366f1, #ec4899);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out 0.5s both;
+}
+
+.ctaButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.4);
 }
 
 .stats {
@@ -96,8 +156,8 @@
 }
 
 .statCard {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1.5rem;
   padding: 2rem;
   text-align: center;
@@ -107,7 +167,7 @@
 
 .statCard:hover {
   transform: translateY(-5px);
-  border-color: var(--primary);
+  border-color: #6366f1;
   box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
 }
 
@@ -134,8 +194,8 @@
 }
 
 .featureCard {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1.5rem;
   padding: 2rem;
   backdrop-filter: blur(10px);
@@ -144,7 +204,7 @@
 
 .featureCard:hover {
   transform: translateY(-5px);
-  border-color: var(--accent);
+  border-color: #06b6d4;
   box-shadow: 0 20px 40px rgba(6, 182, 212, 0.2);
 }
 
@@ -180,6 +240,14 @@
   }
   
   .main {
-    padding: 2rem 1rem;
+    padding: 6rem 1rem 2rem;
+  }
+  
+  .nav {
+    padding: 1rem;
+  }
+  
+  .navLinks {
+    gap: 1rem;
   }
 }

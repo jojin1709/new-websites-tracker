@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Cursor AI",
+    "tagline": "The AI-first code editor. Write, edit, and chat with your codebase.",
+    "url": "https://cursor.sh",
+    "votes": 1250,
+    "source": "Product Hunt",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "v0 by Vercel",
+    "tagline": "Generate UI with shadcn/ui and Tailwind CSS",
+    "url": "https://v0.dev",
+    "votes": 980,
+    "source": "Product Hunt",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Bolt.new",
+    "tagline": "Prompt, run, edit, and deploy full-stack web applications directly in the browser",
+    "url": "https://bolt.new",
+    "votes": 870,
+    "source": "Product Hunt",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Replit Agent",
+    "tagline": "Build apps with AI in your browser",
+    "url": "https://replit.com",
+    "votes": 750,
+    "source": "Product Hunt",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Claude Code",
+    "tagline": "An agentic coding tool that lives in your terminal",
+    "url": "https://claude.ai",
+    "votes": 620,
+    "source": "Product Hunt",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Postgres.js - Fastest PostgreSQL client for Node.js",
+    "tagline": "github.com",
+    "url": "https://github.com/porsager/postgres",
+    "votes": 450,
+    "source": "Hacker News",
+    "comments": 120,
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "I built a self-hosted alternative to Notion",
+    "tagline": "github.com",
+    "url": "https://github.com/AppFlowy-IO/AppFlowy",
+    "votes": 380,
+    "source": "Hacker News",
+    "comments": 95,
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Show HN: Open-source Figma alternative",
+    "tagline": "github.com",
+    "url": "https://github.com/penpot/penpot",
+    "votes": 320,
+    "source": "Hacker News",
+    "comments": 85,
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "Show HN: I made a free API for real-time weather",
+    "tagline": "weatherapi.com",
+    "url": "https://www.weatherapi.com",
+    "votes": 280,
+    "source": "Hacker News",
+    "comments": 65,
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "denoland/deno",
+    "tagline": "A modern runtime for JavaScript and TypeScript",
+    "url": "https://github.com/denoland/deno",
+    "stars": 95000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "vercel/next.js",
+    "tagline": "The React Framework for the Web",
+    "url": "https://github.com/vercel/next.js",
+    "stars": 125000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "microsoft/TypeScript",
+    "tagline": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output",
+    "url": "https://github.com/microsoft/TypeScript",
+    "stars": 100000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "tailwindlabs/tailwindcss",
+    "tagline": "A utility-first CSS framework for rapid UI development",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "stars": 80000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "supabase/supabase",
+    "tagline": "The open source Firebase alternative",
+    "url": "https://github.com/supabase/supabase",
+    "stars": 72000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "name": "calcom/cal.com",
+    "tagline": "Scheduling infrastructure for everyone",
+    "url": "https://github.com/calcom/cal.com",
+    "stars": 38000,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-12T08:00:00.000Z"
+  }
+]
