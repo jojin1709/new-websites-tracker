@@ -22,18 +22,32 @@ export default function Discoveries() {
       });
   }, []);
 
+  const sources = ['all', ...new Set(discoveries.map(d => d.source))];
+
   const filtered = discoveries.filter(item => {
-    const matchesFilter = filter === 'all' || 
-      item.source.toLowerCase().includes(filter.toLowerCase());
+    const matchesFilter = filter === 'all' || item.source === filter;
     const matchesSearch = item.name.toLowerCase().includes(search.toLowerCase()) ||
                          item.tagline.toLowerCase().includes(search.toLowerCase());
     return matchesFilter && matchesSearch;
   });
 
   const getSourceColor = (source) => {
-    if (source.includes('Product')) return '#ff6154';
-    if (source.includes('Hacker')) return '#ff6600';
-    if (source.includes('GitHub')) return '#8b5cf6';
+    const colors = {
+      'Product Hunt': '#ff6154',
+      'Hacker News': '#ff6600',
+      'GitHub Trending': '#8b5cf6',
+      'Reddit': '#ff4500',
+      'Dev.to': '#0a0a0a',
+      'BetaList': '#00d4aa',
+      'Indie Hackers': '#0e2439',
+      'Launching Next': '#6366f1',
+      'AlternativeTo': '#ff6b6b',
+      'TechCrunch': '#0a9e01',
+    };
+    
+    for (const [key, color] of Object.entries(colors)) {
+      if (source.includes(key)) return color;
+    }
     return '#6366f1';
   };
 
@@ -53,7 +67,7 @@ export default function Discoveries() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Latest Discoveries</h1>
-        <p className={styles.subtitle}>{filtered.length} websites & tools found</p>
+        <p className={styles.subtitle}>{filtered.length} websites & tools found from {sources.length - 1} sources</p>
         
         <div className={styles.controls}>
           <input
@@ -68,26 +82,17 @@ export default function Discoveries() {
               className={`${styles.filterBtn} ${filter === 'all' ? styles.active : ''}`}
               onClick={() => setFilter('all')}
             >
-              All Sources
+              All ({discoveries.length})
             </button>
-            <button 
-              className={`${styles.filterBtn} ${filter === 'product' ? styles.active : ''}`}
-              onClick={() => setFilter('product')}
-            >
-              Product Hunt
-            </button>
-            <button 
-              className={`${styles.filterBtn} ${filter === 'hacker' ? styles.active : ''}`}
-              onClick={() => setFilter('hacker')}
-            >
-              Hacker News
-            </button>
-            <button 
-              className={`${styles.filterBtn} ${filter === 'github' ? styles.active : ''}`}
-              onClick={() => setFilter('github')}
-            >
-              GitHub Trending
-            </button>
+            {sources.filter(s => s !== 'all').map(source => (
+              <button 
+                key={source}
+                className={`${styles.filterBtn} ${filter === source ? styles.active : ''}`}
+                onClick={() => setFilter(source)}
+              >
+                {source} ({discoveries.filter(d => d.source === source).length})
+              </button>
+            ))}
           </div>
         </div>
 
@@ -105,7 +110,7 @@ export default function Discoveries() {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className={styles.card}
-                style={{ animationDelay: `${index * 0.05}s` }}
+                style={{ animationDelay: `${index * 0.03}s` }}
               >
                 <div className={styles.cardHeader}>
                   <span 
@@ -115,13 +120,13 @@ export default function Discoveries() {
                     {item.source}
                   </span>
                   <span className={styles.votes}>
-                    {item.source === 'GitHub Trending' ? '⭐' : '🔥'} {item.votes || item.stars || 0}
+                    {item.source.includes('GitHub') ? '⭐' : '🔥'} {item.votes || item.stars || 0}
                   </span>
                 </div>
                 <h3 className={styles.cardTitle}>{item.name}</h3>
                 <p className={styles.cardDesc}>{item.tagline}</p>
                 <div className={styles.cardFooter}>
-                  <span className={styles.url}>{item.url ? new URL(item.url).hostname : ''}</span>
+                  <span className={styles.url}>{item.url ? (() => { try { return new URL(item.url).hostname } catch { return '' } })() : ''}</span>
                   <span className={styles.visitBtn}>Visit →</span>
                 </div>
               </a>
@@ -131,7 +136,7 @@ export default function Discoveries() {
 
         {!loading && filtered.length === 0 && (
           <div className={styles.empty}>
-            <p>No discoveries found matching your search.</p>
+            <p>No discoveries found. Run the scraper first!</p>
           </div>
         )}
       </main>
