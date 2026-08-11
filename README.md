@@ -7,7 +7,7 @@
 
 Automated bot that discovers the latest websites, tools, and companies launching every day.
 
-**Live Demo:** [new-websites-tracker.vercel.app](https://new-websites-tracker.vercel.app/)
+**Live Website:** [new-websites-tracker.vercel.app](https://new-websites-tracker.vercel.app/)
 
 ---
 
@@ -30,25 +30,13 @@ LaunchRadar scans multiple platforms daily to find new websites, tools, startups
 | **GitHub Trending** | Trending repositories |
 | **Reddit** | r/SideProject, r/startups, r/webdev |
 
-## Quick Start
+## Features
 
-### Run Locally
-
-```bash
-git clone https://github.com/jojin1709/new-websites-tracker.git
-cd new-websites-tracker
-npm install
-npm run scrape    # Fetch latest discoveries
-npm run dev       # Start dashboard
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
-### Deploy to Vercel
-
-1. Push to GitHub
-2. Import at [vercel.com/new](https://vercel.com/new)
-3. Click Deploy
+- **Automated Daily Scraping** - GitHub Actions runs every day
+- **Multiple Sources** - 4 data sources aggregated
+- **Search & Filter** - Find exactly what you're looking for
+- **Modern UI** - Tailwind CSS with smooth animations
+- **Click to Visit** - Every discovery links to the actual website
 
 ## How It Works
 
@@ -77,14 +65,6 @@ Open [http://localhost:3000](http://localhost:3000)
 └─────────────────────────────┘
 ```
 
-## Features
-
-- **Automated Daily Scraping** - GitHub Actions runs every day
-- **Multiple Sources** - 4 data sources aggregated
-- **Search & Filter** - Find exactly what you're looking for
-- **Modern UI** - Tailwind CSS with smooth animations
-- **Click to Visit** - Every discovery links to the actual website
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -95,18 +75,23 @@ Open [http://localhost:3000](http://localhost:3000)
 | Automation | GitHub Actions |
 | Hosting | Vercel |
 
-## Project Structure
+## License
 
-```
-├── .github/workflows/    # GitHub Actions
-├── components/           # React components
-├── data/                 # Scraped data (JSON)
-├── pages/                # Next.js pages
-├── scrapers/             # Scraper modules
-├── styles/               # Global CSS
-├── tailwind.config.js    # Tailwind config
-└── postcss.config.js     # PostCSS config
-```
+This project is licensed under the **GNU Affero General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+
+**⚠️ Important:** You may not copy, modify, or distribute this code without permission. See license for full terms.
+
+## Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating in this project.
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines first.
+
+## Security
+
+If you discover a security vulnerability, please report it responsibly. Do not open public issues for security vulnerabilities.
 
 ## Developer
 
