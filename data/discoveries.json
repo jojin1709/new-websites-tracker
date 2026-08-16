@@ -1,5 +1,1455 @@
 [
   {
+    "name": "What happens when an LLM never sees material beyond fifth grade?",
+    "tagline": "littlelearner-ll.github.io",
+    "url": "https://littlelearner-ll.github.io/",
+    "votes": 47,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Asus Bike Booster",
+    "tagline": "www.asus.com",
+    "url": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
+    "votes": 343,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+    "tagline": "duckdb.org",
+    "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+    "votes": 136,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Semaglutide linked to lower predicted dementia risk",
+    "tagline": "alz-journals.onlinelibrary.wiley.com",
+    "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+    "votes": 419,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Patterns and problems in emerging multi-agent systems",
+    "tagline": "www.anthropic.com",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "votes": 70,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Software Engineering fundamentals matter more",
+    "tagline": "rhonabwy.com",
+    "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+    "votes": 112,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Cultivating a state of mind where new ideas are born (2023)",
+    "tagline": "www.henrikkarlsson.xyz",
+    "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+    "votes": 158,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+    "tagline": "www.severe-weather.eu",
+    "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
+    "votes": 220,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Guiding Ships with Moire Patterns",
+    "tagline": "tinkerings.org",
+    "url": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
+    "votes": 41,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "At-home test for infected ticks could improve Lyme Disease diagnosis",
+    "tagline": "www.smithsonianmag.com",
+    "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
+    "votes": 253,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+    "tagline": "www.micdrop.gg",
+    "url": "https://www.micdrop.gg/",
+    "votes": 52,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "AI in drug discovery – what it is, where we stand and the path forward",
+    "tagline": "www.science.org",
+    "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+    "votes": 136,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "I built a browser-native SysEx librarian for 80s/90s synthesizers",
+    "tagline": "bipluk.com",
+    "url": "https://bipluk.com/",
+    "votes": 15,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Numba in the Browser: Unlocking a New Scientific Python Stack in JupyterLite",
+    "tagline": "notebook.link",
+    "url": "https://notebook.link/blog/numba-in-the-browser/",
+    "votes": 35,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "A fortuitous decade as an indie software developer",
+    "tagline": "lapcatsoftware.com",
+    "url": "https://lapcatsoftware.com/articles/2026/8/3.html",
+    "votes": 75,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Abdominal fat predicts heart disease risk better than BMI",
+    "tagline": "www.acc.org",
+    "url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+    "votes": 248,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Tracking down a Zsh history data loss bug",
+    "tagline": "michael.stapelberg.ch",
+    "url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+    "votes": 69,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "AI has access to a vastly larger working memory than the human brain",
+    "tagline": "davidepiffer.com",
+    "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+    "votes": 484,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Tea5767-Radio-Tuner",
+    "tagline": "github.com",
+    "url": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
+    "votes": 36,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Falstad Math and Physics Simulations",
+    "tagline": "www.falstad.com",
+    "url": "https://www.falstad.com/mathphysics.html",
+    "votes": 11,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "A spectre is haunting Unicode",
+    "tagline": "www.dampfkraft.com",
+    "url": "https://www.dampfkraft.com/ghost-characters.html",
+    "votes": 217,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
+    "tagline": "spectrum.ieee.org",
+    "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+    "votes": 16,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+    "tagline": "arxiv.org",
+    "url": "https://arxiv.org/abs/2608.13122",
+    "votes": 31,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "Not sure where I am going with this garbage collection rabbit hole",
+    "tagline": "ikouchiha47.github.io",
+    "url": "https://ikouchiha47.github.io/2026/08/12/concurrency-and-gc.html",
+    "votes": 9,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-16T08:22:32.422Z"
+  },
+  {
+    "name": "AI has access to a vastly larger working memory than the human brain",
+    "tagline": "davidepiffer.com",
+    "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+    "votes": 484,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.621Z"
+  },
+  {
+    "name": "Semaglutide linked to lower predicted dementia risk",
+    "tagline": "alz-journals.onlinelibrary.wiley.com",
+    "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+    "votes": 419,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.714Z"
+  },
+  {
+    "name": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+    "tagline": "sankalp.bearblog.dev",
+    "url": "https://sankalp.bearblog.dev/autoresearch/",
+    "votes": 416,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.744Z"
+  },
+  {
+    "name": "In Australia, a home battery boom has helped cut wholesale power prices",
+    "tagline": "e360.yale.edu",
+    "url": "https://e360.yale.edu/digest/australia-home-batteries",
+    "votes": 350,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.875Z"
+  },
+  {
+    "name": "Working with AI feels more like leadership than coding",
+    "tagline": "allen.bargi.org",
+    "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+    "votes": 300,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.961Z"
+  },
+  {
+    "name": "Qwen3.8-27B",
+    "tagline": "twitter.com",
+    "url": "https://twitter.com/alibaba_qwen/status/2088280182356611304",
+    "votes": 298,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:32.989Z"
+  },
+  {
+    "name": "At-home test for infected ticks could improve Lyme Disease diagnosis",
+    "tagline": "www.smithsonianmag.com",
+    "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
+    "votes": 253,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-16T08:22:33.045Z"
+  },
+  {
+    "name": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+    "tagline": "www.micdrop.gg",
+    "url": "https://www.micdrop.gg/",
+    "votes": 52,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.102Z"
+  },
+  {
+    "name": "Show HN: Laptop is the last place your secrets are still in plaintext",
+    "tagline": "github.com",
+    "url": "https://github.com/jitpass/jit",
+    "votes": 41,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.130Z"
+  },
+  {
+    "name": "Show HN: Fixing optical computing jitter via fluid dynamics in GPU registers",
+    "tagline": "github.com",
+    "url": "https://github.com/PJHkorea/photonic-mesh-fng-router",
+    "votes": 4,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.158Z"
+  },
+  {
+    "name": "Show HN: Bribes.fyi – Compare bribes statistics department wise",
+    "tagline": "bribes.fyi",
+    "url": "https://bribes.fyi/compare",
+    "votes": 38,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.215Z"
+  },
+  {
+    "name": "Show HN: I built a native app for coding agents with Rust and GPUI",
+    "tagline": "waku.sh",
+    "url": "https://waku.sh",
+    "votes": 27,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.243Z"
+  },
+  {
+    "name": "Show HN: Eigendrum - Draw any shape and hear what it sounds like as a drum",
+    "tagline": "baselashraf81.github.io",
+    "url": "https://baselashraf81.github.io/eigendrum/",
+    "votes": 219,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.271Z"
+  },
+  {
+    "name": "Show HN: DSH Plugin Directory – Every DeepSeek Harness Plugin",
+    "tagline": "dshplugin.online",
+    "url": "https://dshplugin.online/",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.298Z"
+  },
+  {
+    "name": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
+    "tagline": "github.com",
+    "url": "https://github.com/betocmn/widen",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.326Z"
+  },
+  {
+    "name": "Show HN: Snafu: Agentic flow to help you with \"naming things\" in source code",
+    "tagline": "github.com",
+    "url": "https://github.com/sebastiancarlos/snafu",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.525Z"
+  },
+  {
+    "name": "Show HN: Quasicrystals Animation Playground with WebXR",
+    "tagline": "hypnagogic-quasicrystals.github.io",
+    "url": "https://hypnagogic-quasicrystals.github.io/",
+    "votes": 37,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.581Z"
+  },
+  {
+    "name": "Show HN: Every MUNI, BART and Caltrain in SF on a Live Map",
+    "tagline": "github.com",
+    "url": "https://github.com/UtpalJayNadiger/wheres-my-muni",
+    "votes": 8,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.610Z"
+  },
+  {
+    "name": "Show HN: Stratum – Rate books, films, and music to find users with similar taste",
+    "tagline": "www.joinstratum.app",
+    "url": "https://www.joinstratum.app/",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-16T08:22:33.638Z"
+  },
+  {
+    "name": "Has the hallucination problem in AI been solved?",
+    "tagline": "My understanding that all AI can, and will hallucinate. I get downvoted for saying this, but no one ",
+    "url": "https://news.ycombinator.com/item?id=49316330",
+    "votes": 9,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.695Z"
+  },
+  {
+    "name": "Ask HN: What is your favorite lightweight tool or CLI utility in 2026?",
+    "tagline": "Tools like ripgrep, fzf, and htop have saved me countless hours over the years. What small utilities",
+    "url": "https://news.ycombinator.com/item?id=49314700",
+    "votes": 17,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.725Z"
+  },
+  {
+    "name": "Ask HN: How would you market this service?",
+    "tagline": "Hi all,<p>I have a genuine problem here, I have been working for myself on a licensing layer for my ",
+    "url": "https://news.ycombinator.com/item?id=49316403",
+    "votes": 3,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.756Z"
+  },
+  {
+    "name": "Privacy is an underrated advantage in Slack apps",
+    "tagline": "Maybe more of a big deal should be made about the flood of internal private company information that",
+    "url": "https://news.ycombinator.com/item?id=49315895",
+    "votes": 2,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.818Z"
+  },
+  {
+    "name": "Alternative to Internet Archive",
+    "tagline": "Now; i use the archive to archive my prolithic output of music. (i have over 300 albums.) The music ",
+    "url": "https://news.ycombinator.com/item?id=49309061",
+    "votes": 17,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.866Z"
+  },
+  {
+    "name": "Ask HN: When you sell your company, do you receive the money with a normal wire?",
+    "tagline": "For those who sold their company for a substantial amount, did the money just arrive on your &quot;r",
+    "url": "https://news.ycombinator.com/item?id=49310571",
+    "votes": 5,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.927Z"
+  },
+  {
+    "name": "Great music selection without overthinking",
+    "tagline": "There are times (now more than ever) where picking music seems to be a proper task. Having to figure",
+    "url": "https://news.ycombinator.com/item?id=49310306",
+    "votes": 3,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-16T08:22:33.956Z"
+  },
+  {
+    "name": "24 Cups, 36 Seats — The Bartender's Ledger",
+    "tagline": "24 stories. 24 visits. One counter, same six faces.              The Third Cup   The AI wave hit, and...",
+    "url": "https://dev.to/xulingfeng/24-cups-36-seats-the-bartenders-ledger-40aj",
+    "votes": 69,
+    "source": "Dev.to",
+    "scrapedAt": "2026-08-16T08:22:34.429Z"
+  },
+  {
+    "name": "Durable Memory: Why Vector Databases Aren't Enough",
+    "tagline": "Part 3 of the Building the AI Memory Stack series  After finishing Part 2, I noticed something.  The...",
+    "url": "https://dev.to/kenwalger/durable-memory-why-vector-databases-arent-enough-3h8f",
+    "votes": 20,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "You copy and reverse the array to find the last match. `findLast()` searches from the end directly.",
+    "tagline": "Here is a pattern that shows up in almost every codebase:    const lastActive =...",
+    "url": "https://dev.to/parsajiravand/you-copy-and-reverse-the-array-to-find-the-last-match-findlast-searches-from-the-end-directly-ckk",
+    "votes": 24,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "Spicing Up the Web: Building \"Angaar\", an Immersive Indian Comfort Food Experience",
+    "tagline": "This is a submission for Frontend Challenge - Comfort Food Edition, Perfect Landing           What I...",
+    "url": "https://dev.to/dj29/spicing-up-the-web-building-angaar-an-immersive-indian-comfort-food-experience-38go",
+    "votes": 24,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "Five tabs open, one refresh token — the race nobody noticed",
+    "tagline": "A user reports that they keep getting logged out. Not immediately — after a while, randomly, always...",
+    "url": "https://dev.to/parsajiravand/five-tabs-open-one-refresh-token-the-race-nobody-noticed-1dn8",
+    "votes": 21,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "PawBot - An AI Desktop Puppy That Eats Your Files 🐾",
+    "tagline": "This is a submission for Weekend Challenge: Dog Days Edition           What I Built   Remember Neko...",
+    "url": "https://dev.to/varshithvhegde/pawbot-an-ai-desktop-puppy-that-eats-your-files-301a",
+    "votes": 20,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "Gravy Theory: three chickens, one base",
+    "tagline": "This is a submission for Frontend Challenge - Comfort Food Edition Perfect Landing.           What I...",
+    "url": "https://dev.to/yashksaini/gravy-theory-three-chickens-one-base-25h8",
+    "votes": 20,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "The \"AI\" Badge Doesn't Measure What You Think It Does",
+    "tagline": "Anthropic signed the EU AI Act's Code of Practice on Transparency of AI-Generated Content, and...",
+    "url": "https://dev.to/pascal_cescato_692b7a8a20/the-ai-badge-doesnt-measure-what-you-think-it-does-3ne9",
+    "votes": 24,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-16T08:22:34.888Z"
+  },
+  {
+    "name": "cordiverse/cordis",
+    "tagline": "Meta-Framework of Spatiotemporal Composability",
+    "url": "https://github.com/cordiverse/cordis",
+    "stars": 599,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-16T08:22:36.114Z"
+  },
+  {
+    "name": "public-apis/public-apis",
+    "tagline": "A collective list of free APIs",
+    "url": "https://github.com/public-apis/public-apis",
+    "stars": 2260,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-16T08:22:36.117Z"
+  },
+  {
+    "name": "MakazhanAlpamys/Soup",
+    "tagline": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+    "url": "https://github.com/MakazhanAlpamys/Soup",
+    "stars": 297,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-16T08:22:36.117Z"
+  },
+  {
+    "name": "HKUDS/CLI-Anything",
+    "tagline": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "stars": 118,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-16T08:22:36.119Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">cordiverse/</span>cordis",
+    "tagline": "GitHub Daily Trending",
+    "url": "https://github.com/cordiverse/cordis",
+    "stars": 4518,
+    "source": "GitHub Daily",
+    "scrapedAt": "2026-08-16T08:22:37.171Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">public-apis/</span>public-apis",
+    "tagline": "GitHub Daily Trending",
+    "url": "https://github.com/public-apis/public-apis",
+    "stars": 4175,
+    "source": "GitHub Daily",
+    "scrapedAt": "2026-08-16T08:22:37.171Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">MakazhanAlpamys/</span>Soup",
+    "tagline": "GitHub Daily Trending",
+    "url": "https://github.com/MakazhanAlpamys/Soup",
+    "stars": 3727,
+    "source": "GitHub Daily",
+    "scrapedAt": "2026-08-16T08:22:37.171Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">HKUDS/</span>CLI-Anything",
+    "tagline": "GitHub Daily Trending",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "stars": 1434,
+    "source": "GitHub Daily",
+    "scrapedAt": "2026-08-16T08:22:37.171Z"
+  },
+  {
+    "name": "yjh051108/dsh-routing-suite",
+    "tagline": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+    "url": "https://github.com/yjh051108/dsh-routing-suite",
+    "stars": 2232,
+    "source": "GitHub New",
+    "scrapedAt": "2026-08-16T08:22:37.727Z"
+  },
+  {
+    "name": "cordiverse/cordis\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/cordiverse/cordis\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "cordiverse/cordis\" data-hydro-click=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/cordiverse/cordis\" data-hydro-click=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/nodejs\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/nodejs\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/plugin\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/plugin\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/framework\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/framework\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/effect\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/effect\" data-view-component=\"true\" class=\"topic-tag topic-tag-link Link f6 mb-2 tmp-mb-2",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/chrome\" data-view-component=\"true\" class=\"overflow-hidden rounded-top-2 Link border-bottom d-block position-relative\"><div\n          class=\"position-absolute top-0 right-0 bottom-0 left-0\"\n          style=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/chrome\" data-view-component=\"true\" class=\"overflow-hidden rounded-top-2 Link border-bottom d-block position-relative\"><div\n          class=\"position-absolute top-0 right-0 bottom-0 left-0\"\n          style=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "topics/chrome\" data-view-component=\"true\" class=\"Link",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/chrome\" data-view-component=\"true\" class=\"Link",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "cursor/plugins\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/cursor/plugins\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "cursor/plugins\" data-hydro-click=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/cursor/plugins\" data-hydro-click=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-16T08:22:38.718Z"
+  },
+  {
+    "name": "Why I remain a skeptic",
+    "tagline": "vibecoding",
+    "url": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
+    "votes": 46,
+    "source": "Lobste.rs",
+    "comments": 46,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Zig Day Seattle, WA #3",
+    "tagline": "event, zig",
+    "url": "https://zig.day/usa/seattle/3/",
+    "votes": 16,
+    "source": "Lobste.rs",
+    "comments": 2,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "How Is Compression Prediction?",
+    "tagline": "math",
+    "url": "https://lukefleed.xyz/posts/compression/",
+    "votes": 15,
+    "source": "Lobste.rs",
+    "comments": 4,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Recap: Software Should Work 2026",
+    "tagline": "event, programming",
+    "url": "https://bencornia.com/blog/recap-software-should-work-2026",
+    "votes": 12,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "What's missing to have reproducible builds on PyPI",
+    "tagline": "python",
+    "url": "https://snarky.ca/whats-missing-to-have-reproducible-builds-on-pypi/",
+    "votes": 6,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Power Relations",
+    "tagline": "distributed, practices",
+    "url": "https://corbinsimpson.com/words/power-relations.html",
+    "votes": 7,
+    "source": "Lobste.rs",
+    "comments": 2,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Aiki reaches recursive self-interpretation",
+    "tagline": "go, plt, release",
+    "url": "https://decuser.github.io/posts/aiki-alpha-mileston26-update/",
+    "votes": 2,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Flirt: GitHub and Mailing List backends",
+    "tagline": "vcs",
+    "url": "https://blog.buenzli.dev/flirt-github-and-mailing-list/",
+    "votes": 10,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "A Programming Paradigm for Spatiotemporal Composability",
+    "tagline": "plt",
+    "url": "https://github.com/cordiverse/paper/blob/main/paper.pdf",
+    "votes": 3,
+    "source": "Lobste.rs",
+    "comments": 4,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "What do you think of LazyPromise as a lightweight alternative to Effect?",
+    "tagline": "api, javascript, show",
+    "url": "https://github.com/lazy-promise/lazy-promise",
+    "votes": 2,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "On Knowledge Representation",
+    "tagline": "philosophy, plt, programming",
+    "url": "https://sifter.org/~simon/journal/20130713.h.html",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Serokell’s Work on GHC: Dependent Types, Part 5",
+    "tagline": "haskell",
+    "url": "https://serokell.io/blog/serokell-s-work-on-ghc-dependent-types-part-5",
+    "votes": 13,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Haskell: origins, evolution, and future",
+    "tagline": "haskell, video",
+    "url": "https://www.youtube.com/watch?v=MQeIerDsReA&t=673s",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "nixpkgs-multiverse: fast mode",
+    "tagline": "nix",
+    "url": "https://fzakaria.com/2026/08/14/nixpkgs-multiverse-fast-mode",
+    "votes": 13,
+    "source": "Lobste.rs",
+    "comments": 5,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Software Engineering fundamentals matter more than ever",
+    "tagline": "programming, vibecoding",
+    "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software (2005)",
+    "tagline": "performance",
+    "url": "http://www.gotw.ca/publications/concurrency-ddj.htm",
+    "votes": 11,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Ironies of Automation (1983)",
+    "tagline": "pdf, vibecoding",
+    "url": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf",
+    "votes": 4,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+    "tagline": "games, networking, programming",
+    "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+    "votes": 14,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-16T08:22:39.014Z"
+  },
+  {
+    "name": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-16T08:22:39.730Z"
+  },
+  {
+    "name": "Anthropic shares more details about how Claude’s new watermarks will work",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-16T08:22:39.730Z"
+  },
+  {
+    "name": "SpaceX officially closes its Cursor acquisition",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-16T08:22:39.730Z"
+  },
+  {
+    "name": "How to tell if your AI platforms’ accounts have been hacked",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-16T08:22:39.730Z"
+  },
+  {
+    "name": "Every fusion startup that has raised over $100M",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-16T08:22:39.730Z"
+  },
+  {
+    "name": "<![CDATA[Polaroid’s tiny instant camera is $72 and includes a free pack of film]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Have a laugh at AI’s expense by roleplaying as a chatbot]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Don&#8217;t overlook Elektron&#8217;s budget electronic music instruments]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/gadgets/980275/elektron-model-cycles-model-samples-groovebox-electronic-music-instruments-review",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Switched on Pop’s Nate Sloan and Charlie Harding love fresh vegetables and guitar pedals]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/report/980288/switched-on-pop-nate-sloan-charlie-harding-podcast-netflix-interview",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Star Wars: Ahsoka season 2 and Starfighter get teased at D23]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/entertainment/980666/star-wars-ahsoka-season-2-and-starfighter-get-teased-at-d23",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Disney D23 2026: Everything announced for Star Wars, Marvel, and more]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/streaming/980633/x-men-marvel-star-wars-pixar-disney-d23",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[I finally found a magnetic phone grip I never want to remove]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/tech/979850/ohsnap-snap-grip-stand-review",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Marvel reveals the new X-Men cast, including Inde Navarrette and Adam Driver]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/entertainment/980635/marvel-new-x-men-movie-cast",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "<![CDATA[Xteink’s tiny e-readers are getting access to free books through Libby]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-16T08:22:39.935Z"
+  },
+  {
+    "name": "This Beautifully Weird Necklace Is Secretly a USB Drive",
+    "tagline": "Noware’s Puff necklace whimsically reimagines flash drives, turning something functional into personalized jewelry.",
+    "url": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
+    "tagline": "This affordable electric BMX delighted my entire family, even if its range, ride comfort, and actual BMX abilities are l",
+    "url": "https://www.wired.com/review/retrospec-joe-rev-2/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "6 Best Apple Watch Accessories to Upgrade Your Watch (2026)",
+    "tagline": "These are the Apple Watch accessories I recommend adding to your setup.",
+    "url": "https://www.wired.com/story/best-apple-watch-accessories/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade",
+    "tagline": "New fonts, better customization, and a whole new layout all make it worth dusting off your Instapaper account.",
+    "url": "https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Auk Mini 2 Indoor Smart Garden Review: Better Where It Counts",
+    "tagline": "Auk’s Mini 2 improves on the original model with better lights, a sleeker design, and fun new colors.",
+    "url": "https://www.wired.com/review/auk-mini-2-indoor-smart-garden/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Zyzz Was the Original Looksmaxxer. His Rise and Untimely Death Feel More Relevant Than Ever",
+    "tagline": "A new Apple documentary explores the life of Aziz “Zyzz” Shavershian, who rocketed to internet fame in an age before inf",
+    "url": "https://www.wired.com/story/a-young-bodybuilders-rise-preceded-the-looksmaxxing-movement-his-legacy-feels-more-relevant-than-ever/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "5 Best Apple Watch Bands: Nike, Nomad, and Hermés (2026)",
+    "tagline": "We’ve been testing bands since the first Apple Watch launched in 2015. From silicone sports straps to leather bands, I’v",
+    "url": "https://www.wired.com/story/best-apple-watch-bands/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Puerto Rico Is Rationing Water. It Could’ve Avoided It by Harvesting Rainwater",
+    "tagline": "The island could capture billions of gallons of water a year if it implemented systems to catch it as it falls from the ",
+    "url": "https://www.wired.com/story/puerto-rico-is-rationing-water-it-could-avoid-it-by-harvesting-rainwater/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+    "tagline": "When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to tr",
+    "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-16T08:22:39.994Z"
+  },
+  {
+    "name": "<![CDATA[An eval harness found what qualitative review couldn't: AI models are most confident when wrong]]>",
+    "tagline": "There is a step in the development process for large language model (LLM)-assisted tooling that most teams skip because ",
+    "url": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
+    "votes": 0,
+    "source": "VentureBeat",
+    "scrapedAt": "2026-08-16T08:22:40.466Z"
+  },
+  {
+    "name": "<![CDATA[How Samsung's Galaxy Watch 8 measures your antioxidant levels]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[What is a Bluetooth codec and which one offers the best audio quality?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236801/what-is-bluetooth-codec-which-offers-best-audio-quality/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Apple Watch battery replacement: How much does it cost and is it worth it?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2237226/apple-watch-battery-replacement-how-much-cost-worth-it/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Why are RAM prices so high right now?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Anthropic is watermarking text generated by Claude to comply with EU law]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[What the world's oldest telecommunications company looks like today]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236190/worlds-oldest-telecommunications-company-what-looks-like-today/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Here's how to reset your ASUS router]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234242/how-to-reset-asus-router/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[How to request an Xbox refund]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234241/xbox-refund-how-to-request/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[What is analog TV and how is it different from digital TV?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234240/what-is-analog-tv-how-different-from-digital-tv/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[What's the USB trident symbol for? How to know what kind of port you have]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234239/what-usb-trident-symbol-for-how-to-know-port-type/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[What happens when a hybrid battery dies and what to do about it]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234238/what-happens-when-hybrid-battery-dies/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[USB4 Vs USB-C: What's the difference between them?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234235/usb4-vs-usbc-differences-between-explained/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[SpaceX has officially acquired AI coding startup Cursor]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2237655/spacex-officially-acquired-ai-coding-startup-cursor/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Expensive earbuds: When and why it's worth paying more]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234234/expensive-earbuds-when-why-pay-more/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[Riffs on GoldenEye 007, Star Fox and Kingdom Hearts, and other new indie games worth checking out]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2237397/riffs-on-goldeneye-007-star-fox-and-kingdom-hearts-and-other-new-indie-games/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-16T08:22:40.544Z"
+  },
+  {
+    "name": "<![CDATA[ 3 places you can't install plug-in solar panels — the new planning rules that could ruin your grand designs for your balcony ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/home/3-places-you-cant-install-plug-in-solar-panels-the-new-planning-rules-that-could-ruin-your-grand-designs-for-your-balcony",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ Want delicious lattes the easy way? I'm a certified barista, and these are the top 3 milk frothers I recommend for perfect results every time ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/home/coffee-machines/want-delicious-lattes-the-easy-way-im-a-certified-barista-and-these-are-the-top-3-milk-frothers-i-recommend-for-perfect-results-every-time",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ Photoroom AI photo editor review: A one-click wonder for making product shots unmissable on your ecommerce store ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/software-services/photoroom-ai-photo-editor-review",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ From styling your hair to drying your socks — 5 ways to use your portable fan in between heatwaves ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/home/air-quality/from-styling-your-hair-to-drying-your-socks-5-ways-to-use-your-portable-fan-in-between-heatwaves",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ ‘Never get blindsided by an empty battery’: I was pleased with the OnePlus Nord CE5's performance and camera, but its battery life is the part that truly impressed me in real-world testing ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/phones/oneplus-phones/never-get-blindsided-by-an-empty-battery-i-was-pleased-with-the-oneplus-nord-ce5s-performance-and-camera-but-its-battery-life-can-outlast-many-flagships-on-the-market",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ I'm an Apple Watch die-hard — here are my picks for the 10 best Apple Watch faces of 2026 so far ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/health-fitness/smartwatches/im-an-apple-watch-die-hard-here-are-my-picks-for-the-10-best-apple-watch-faces-of-2026-so-far",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ Xenoblade Chronicles 2's Nintendo Switch 2 edition could have been perfection — but unending menus left me burning with rage like Pyra ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/gaming/nintendo-switch/xenoblade-chronicles-2s-nintendo-switch-2-edition-could-have-been-perfection-but-unending-menus-left-me-burning-with-rage-like-pyra",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ Dolby says Dolby Vision 2 HDR should come to cheaper TVs than the original — and the basic version is less expensive to license than Dolby Vision 2 Max to achieve that ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/televisions/dolby-says-dolby-vision-2-should-come-to-cheaper-tvs-than-dolby-vision-1",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.708Z"
+  },
+  {
+    "name": "<![CDATA[ Ukraine's new secret drone weapon could be this 25g antenna, capable of transmitting over an incredible range ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/ukraines-new-secret-drone-weapon-could-be-this-25g-antenna-capable-of-transmitting-over-an-incredible-range",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ I tested a cheap Dolby Atmos 5.1 soundbar system with real speakers — here’s where it impressed me, and where it fell short of the competition ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/televisions/soundbars/ultimea-poseidon-d60-review",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ There's a sneaky way to watch UFC 330 for $1 ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/theres-a-sneaky-way-to-watch-ufc-330-for-usd1",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ 'A first step, not a finish line' — Disney and Epic Games have connected Disney World’s and Disneyland’s Millennium Falcon: Smugglers Run to a brand-new Star Wars adventure in Fortnite ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/streaming/entertainment/a-first-step-not-a-finish-line-disney-and-epic-games-have-connected-disney-worlds-and-disneylands-millennium-falcon-smugglers-run-to-a-brand-new-star-wars-adventure-in-fortnite",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ How to watch UFC 330: Makhachev vs Machado Garry live streams, no PPV, start time, full card ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/how-to-watch/sport/ufc-330-makhachev-vs-machado-garry",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ Quote of the day by Microsoft CEO Satya Nadella: 'Our industry does not respect tradition – it only respects innovation' — a communiqué stamping authority ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/quote-of-the-day-by-microsoft-ceo-satya-nadella-our-industry-does-not-respect-tradition-it-only-respects-innovation-a-communique-stamping-authority",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "<![CDATA[ The US Navy finally has a carrier with a built-in center for drones and other unmanned aircraft ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/the-us-navy-finally-has-a-carrier-with-a-built-in-center-for-drones-and-other-unmanned-aircraft",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-16T08:22:40.709Z"
+  },
+  {
+    "name": "Marek Olšák&#039;s 19 Latest Patches Further Optimizing RADV &amp; ACO",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/RADV-ACO-19-More-Patches-Valve",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "GNOME 51 Beta Released With Many Minor Improvements",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/GNOME-51-Beta",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "Intel&#039;s Jay Graphics Shader Compiler Now Passing Vulkan CTS With Xe2/Xe3 Hardware",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Intel-Jay-Compiler-Xe2-Xe3-CTS",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "RustConn 0.20 Continues Further Polishing This GTK4/libadwaita-Based Connection Manager",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/RustConn-0.20-Released",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "Late Sound Fixes For Linux 7.2 Bring More Device Quirks, Intel Nova Lake HDMI-In Capture",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Last-Sound-Fixes-Linux-7.2",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "KDE Plasma 6.8 To Allow Fine-Tuning Mouse/Touchpad Speeds",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Plasma-6.8-Tune-Mouse-Speeds",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "Debian Developers Begin Voting Over LLM Usage Within The Project",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Debian-Votes-On-LLM-Usage",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-16T08:22:40.948Z"
+  },
+  {
+    "name": "Inside HAOQI.DESIGN: Letting DOM and WebGL Share a Retro-Futurist Stage",
+    "tagline": "Codrops",
+    "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
+    "votes": 0,
+    "source": "Codrops",
+    "scrapedAt": "2026-08-16T08:22:42.247Z"
+  },
+  {
+    "name": "DMWF Spotlight: How to win with brand &amp; creator videos",
+    "tagline": "AI News",
+    "url": "https://www.marketingtechnews.net/news/dmwf-spotlight-how-to-win-with-brand-creator-videos/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "Samsung health AI models analyse wearable biosignal data",
+    "tagline": "AI News",
+    "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "DMWF Spotlight: The new frontline of brand reputation: mastering generative engine optimization (GEO)",
+    "tagline": "AI News",
+    "url": "https://www.marketingtechnews.net/news/dmwf-spotlight-the-new-frontline-of-brand-reputation-mastering-generative-engine-optimization-geo/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "DMWF Spotlight: 61% of consumers can&#8217;t name a brand using AI well. Nobody has won this category yet.",
+    "tagline": "AI News",
+    "url": "https://www.marketingtechnews.net/news/dmwf-spotlight-61-of-consumers-cant-name-a-brand-using-ai-well-nobody-has-won-this-category-yet/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "GCT advances 5G chipsets for satellite and terrestrial networks",
+    "tagline": "AI News",
+    "url": "https://www.telecomstechnews.com/news/gct-5g-chipsets-satellite-terrestrial-networks/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "Google AI health coach to use Abbott glucose data",
+    "tagline": "AI News",
+    "url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data/",
+    "votes": 0,
+    "source": "AI News",
+    "scrapedAt": "2026-08-16T08:22:43.453Z"
+  },
+  {
+    "name": "Project 253713227",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/253713227",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 243765083",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243765083",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 179489273",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/179489273",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 250173203",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/250173203",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 239911491",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/239911491",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 243451055",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243451055",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 254116649",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/254116649",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 220938259",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/220938259",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 129165079",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/129165079",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 244148693",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/244148693",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 243850273",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243850273",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 243245429",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243245429",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 251333043",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/251333043",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 238774453",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/238774453",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
+    "name": "Project 252486303",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/252486303",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-16T08:22:44.585Z"
+  },
+  {
     "name": "The other Sean Byrne doesn't exist",
     "tagline": "conic.al",
     "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
