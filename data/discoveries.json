@@ -1,5 +1,1316 @@
 [
   {
+    "name": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+    "tagline": "simonwillison.net",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "votes": 419,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "GIMP Development Update",
+    "tagline": "www.gimp.org",
+    "url": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+    "votes": 111,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "On A.I. regulation and messaging",
+    "tagline": "twitter.com",
+    "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+    "votes": 38,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Linear algebra done right",
+    "tagline": "linear.axler.net",
+    "url": "https://linear.axler.net/",
+    "votes": 55,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "A third world engineer responds to “RISC-V: They should have known better”",
+    "tagline": "rvembedded.com",
+    "url": "https://rvembedded.com/blog_post/12/",
+    "votes": 493,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
+    "tagline": "daringfireball.net",
+    "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+    "votes": 215,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Reticulum – Decentralized Mesh Network",
+    "tagline": "reticulum.network",
+    "url": "https://reticulum.network/",
+    "votes": 113,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Claude: System Prompts",
+    "tagline": "platform.claude.com",
+    "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+    "votes": 642,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+    "tagline": "meanhamster.com",
+    "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
+    "votes": 78,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Show HN: Vocal Slice – Cut audio by selecting text, fully on-device",
+    "tagline": "vocalslice.com",
+    "url": "https://vocalslice.com/",
+    "votes": 34,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Rhombus 1.1 is now available",
+    "tagline": "blog.racket-lang.org",
+    "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+    "votes": 73,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Beware the Permanent Periphery",
+    "tagline": "asteriskmag.com",
+    "url": "https://asteriskmag.com/issues/15/beware-the-permanent-periphery",
+    "votes": 4,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "HackEurope 2026: A short rant on AI and hackathons",
+    "tagline": "duti.dev",
+    "url": "https://duti.dev/blog/2026/spr/",
+    "votes": 9,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Low-Tech Ceramic Water Filter",
+    "tagline": "wiki.lowtechlab.org",
+    "url": "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en",
+    "votes": 172,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Gakutensoku",
+    "tagline": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Gakutensoku",
+    "votes": 15,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "How do I permanently disable random Google Photos popup to backup photos? (2024)",
+    "tagline": "support.google.com",
+    "url": "https://support.google.com/photos/thread/256212140/how-do-i-permanently-disable-google-photos-pop-up-prompt-to-backup-my-photos-i?hl=en",
+    "votes": 101,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "SIMD in the 90s: Programming Intel's Pentium MMX",
+    "tagline": "pikuma.com",
+    "url": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+    "votes": 114,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Applying a photosynthetic process to treat “dry eye”",
+    "tagline": "www.science.org",
+    "url": "https://www.science.org/content/blog-post/taking-tip-plants-eyes",
+    "votes": 43,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Prolly: A content-addressed ordered map built on prolly trees",
+    "tagline": "github.com",
+    "url": "https://github.com/crabbuild/prolly",
+    "votes": 42,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Design 3D-printable parts by talking",
+    "tagline": "nurb.dev",
+    "url": "https://nurb.dev/",
+    "votes": 14,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Interview with Amit Patel, Creator of “Solar Realms Elite” (2013)",
+    "tagline": "breakintochat.com",
+    "url": "https://breakintochat.com/blog/2013/02/18/amit-patel-creator-of-solar-realms-elite/",
+    "votes": 52,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Dancing with friends and enemies: boids' swarm intelligence (2012)",
+    "tagline": "community.wolfram.com",
+    "url": "https://community.wolfram.com/groups/-/m/t/122095",
+    "votes": 40,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Strong gravitational lensing and microlensing of supernovae (2024)",
+    "tagline": "infoscience.epfl.ch",
+    "url": "https://infoscience.epfl.ch/entities/publication/644cad8a-6c9b-4b02-bcf3-b8b6e8c614c5",
+    "votes": 10,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "The AI Credit Resale Economy",
+    "tagline": "vectoral.com",
+    "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+    "votes": 277,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Protobuf has LSP support",
+    "tagline": "buf.build",
+    "url": "https://buf.build/blog/protobuf-lsp",
+    "votes": 152,
+    "source": "Hacker News",
+    "scrapedAt": "2026-08-17T08:37:15.801Z"
+  },
+  {
+    "name": "Firefox for iOS now has a native adblocker",
+    "tagline": "support.mozilla.org",
+    "url": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+    "votes": 652,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:15.866Z"
+  },
+  {
+    "name": "Claude: System Prompts",
+    "tagline": "platform.claude.com",
+    "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+    "votes": 642,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:15.898Z"
+  },
+  {
+    "name": "A third world engineer responds to “RISC-V: They should have known better”",
+    "tagline": "rvembedded.com",
+    "url": "https://rvembedded.com/blog_post/12/",
+    "votes": 493,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:15.963Z"
+  },
+  {
+    "name": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+    "tagline": "simonwillison.net",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "votes": 419,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:16.143Z"
+  },
+  {
+    "name": "Research papers using \"kidney disappointment\" instead of \"kidney failure\"",
+    "tagline": "scholar.google.com",
+    "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
+    "votes": 393,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:16.176Z"
+  },
+  {
+    "name": "Stripe will reportedly acquire OpenRouter for $7B+",
+    "tagline": "techcrunch.com",
+    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "votes": 332,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:16.209Z"
+  },
+  {
+    "name": "Models Are Getting Dumber on Purpose",
+    "tagline": "w4g1.dev",
+    "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+    "votes": 310,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:16.307Z"
+  },
+  {
+    "name": "The AI Credit Resale Economy",
+    "tagline": "vectoral.com",
+    "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+    "votes": 277,
+    "source": "HN Best",
+    "scrapedAt": "2026-08-17T08:37:16.404Z"
+  },
+  {
+    "name": "Show HN: Vocal Slice – Cut audio by selecting text, fully on-device",
+    "tagline": "vocalslice.com",
+    "url": "https://vocalslice.com/",
+    "votes": 34,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.568Z"
+  },
+  {
+    "name": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+    "tagline": "desktopcolors.com",
+    "url": "https://desktopcolors.com",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.601Z"
+  },
+  {
+    "name": "Show HN: A public AI whose memory is shared across all users",
+    "tagline": "wildstatic.com",
+    "url": "https://wildstatic.com/",
+    "votes": 70,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.634Z"
+  },
+  {
+    "name": "Show HN: Columnary, a better experience for reading long articles",
+    "tagline": "chromewebstore.google.com",
+    "url": "https://chromewebstore.google.com/detail/columnary/dechndjpekelnmgcchblfbmcceonfdoo",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.699Z"
+  },
+  {
+    "name": "Show HN: Flynt.js – 2.2kb, zero-build, CSP-safe reactivity library for MPAs",
+    "tagline": "github.com",
+    "url": "https://github.com/marsbos/flynt.js",
+    "votes": 9,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.762Z"
+  },
+  {
+    "name": "Show HN: PageSieve, a web scraping browser extension",
+    "tagline": "julius383.github.io",
+    "url": "https://julius383.github.io/PageSieve/",
+    "votes": 11,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.794Z"
+  },
+  {
+    "name": "Show HN: Convertix – Fast, 100% in-browser media and QR tools",
+    "tagline": "convertix-fast-imager-co.blogspot.com",
+    "url": "https://convertix-fast-imager-co.blogspot.com/p/blog-page.html",
+    "votes": 3,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.827Z"
+  },
+  {
+    "name": "Show HN: A visual ping utility that is pretty",
+    "tagline": "source.tube",
+    "url": "https://source.tube/ache/rusty-ping",
+    "votes": 3,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.891Z"
+  },
+  {
+    "name": "Show HN: Continuum – Financial simulations for DIY multimillionaires",
+    "tagline": "continuum-app.xyz",
+    "url": "https://continuum-app.xyz/",
+    "votes": 5,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:16.955Z"
+  },
+  {
+    "name": "Show HN: SolidSync – Poorman's Solidworks PDM",
+    "tagline": "github.com",
+    "url": "https://github.com/baggiest/solidsync",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:17.020Z"
+  },
+  {
+    "name": "Show HN: FileIndexer (simple N-copies verification on ext USB drives)",
+    "tagline": "www.thanassis.space",
+    "url": "https://www.thanassis.space/indexer.html",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:17.051Z"
+  },
+  {
+    "name": "Show HN: Interactive component to map fibre breaks (OTDR)",
+    "tagline": "react-networks-lib.rackout.net",
+    "url": "https://react-networks-lib.rackout.net/otdr-strip",
+    "votes": 7,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:17.096Z"
+  },
+  {
+    "name": "Show HN: Hacker News Top Stories as Feeds to Use with RSS/Atom with Summaries",
+    "tagline": "textlog.cc",
+    "url": "https://textlog.cc/u/hn10",
+    "votes": 2,
+    "source": "HN Show",
+    "scrapedAt": "2026-08-17T08:37:17.193Z"
+  },
+  {
+    "name": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+    "tagline": "A few hours ago I switched my nameservers to Cloudflare in order to enable R2 bucket serving through",
+    "url": "https://news.ycombinator.com/item?id=49322107",
+    "votes": 479,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.259Z"
+  },
+  {
+    "name": "old.reddit.com Now Requires a Login",
+    "tagline": "You maniacs! You blew it up!<p>Redirect URL:<p>https:&#x2F;&#x2F;old.reddit.com&#x2F;login&#x2F;?rea",
+    "url": "https://news.ycombinator.com/item?id=49326106",
+    "votes": 28,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.291Z"
+  },
+  {
+    "name": "Ask HN: When do you think LLM capacity will reach its ceiling?",
+    "tagline": "HN Ask",
+    "url": "https://news.ycombinator.com/item?id=49327308",
+    "votes": 2,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.323Z"
+  },
+  {
+    "name": "Ask HN: What tools are you using for human code review of AI-assisted code?",
+    "tagline": "A good proportion of us and our colleagues are now churning out agent-assisted code at an incredible",
+    "url": "https://news.ycombinator.com/item?id=49321400",
+    "votes": 8,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.356Z"
+  },
+  {
+    "name": "Why is the GitHub trending page weirdly excluding DeepSeek projects?",
+    "tagline": "Hi, this is Tianyi from DeepSeek AI&#x27;s Harness team.<p>I&#x27;m looking to get in touch with som",
+    "url": "https://news.ycombinator.com/item?id=49323677",
+    "votes": 8,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.389Z"
+  },
+  {
+    "name": "Ask HN: What LLM subscription/provider to use with pi harness?",
+    "tagline": "I used to use Claude code but obviously they gone downhill for the last 2 to 3 months.<p>I switched ",
+    "url": "https://news.ycombinator.com/item?id=49322689",
+    "votes": 3,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.487Z"
+  },
+  {
+    "name": "Ask HN: Where to learn software engineering fundamentals?",
+    "tagline": "I have an open question for software engineers out there:<p>As someone that has never studied CS but",
+    "url": "https://news.ycombinator.com/item?id=49318324",
+    "votes": 9,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.519Z"
+  },
+  {
+    "name": "TrueMath – An open-source exact symbolic math tool",
+    "tagline": "I recently built TrueMath, an open-source tool for exact symbolic math and generative identity explo",
+    "url": "https://news.ycombinator.com/item?id=49318921",
+    "votes": 3,
+    "source": "HN Ask",
+    "scrapedAt": "2026-08-17T08:37:17.615Z"
+  },
+  {
+    "name": "How We Got an LLM to Draw Charts Without Ever Touching a Pixel",
+    "tagline": "Let's get something out of the way first.  Having data is good. Having a database full of reviews,...",
+    "url": "https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21",
+    "votes": 25,
+    "source": "Dev.to Rising",
+    "scrapedAt": "2026-08-17T08:37:18.129Z"
+  },
+  {
+    "name": "basecamp/omarchy",
+    "tagline": "Beautiful, Modern & Opinionated Linux",
+    "url": "https://github.com/basecamp/omarchy",
+    "stars": 270,
+    "source": "GitHub Trending",
+    "scrapedAt": "2026-08-17T08:37:19.393Z"
+  },
+  {
+    "name": "<svgaria-hidden=\"true\"data-component=\"Octicon\"height=\"16\"viewBox=\"001616\"version=\"1.1\"width=\"16\"data-view-component=\"true\"class=\"octiconocticon-repomr-1tmp-mr-1color-fg-muted\"><pathd=\"M22.5A2.52.50014.50h8.75a.75.75001.75.75v12.5a.75.75001-.75.75h-2.5a.75.750010-1.5h1.75v-2h-8a11000-.7141.7.75.75011-1.0721.05A2.4952.495001211.5Zm10.5-1h-8a11000-11v6.708A2.4862.4860014.59h8ZM512.25a.25.25001.25-.25h3.5a.25.25001.25.25v3.25a.25.25001-.4.2l-1.45-1.087a.249.249000-.30L5.415.7a.25.25001-.4-.2Z\"></path></svg><spandata-view-component=\"true\"class=\"text-normal\">basecamp/</span>omarchy",
+    "tagline": "GitHub Daily Trending",
+    "url": "https://github.com/basecamp/omarchy",
+    "stars": 1978,
+    "source": "GitHub Daily",
+    "scrapedAt": "2026-08-17T08:37:20.303Z"
+  },
+  {
+    "name": "alchaincyf/deepseek-harness-orange-book",
+    "tagline": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
+    "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+    "stars": 933,
+    "source": "GitHub New",
+    "scrapedAt": "2026-08-17T08:37:20.805Z"
+  },
+  {
+    "name": "vercel-labs/eve-software-factory-template",
+    "tagline": "Meet Foreman, an eve Software Factory.",
+    "url": "https://github.com/vercel-labs/eve-software-factory-template",
+    "stars": 846,
+    "source": "GitHub New",
+    "scrapedAt": "2026-08-17T08:37:20.805Z"
+  },
+  {
+    "name": "basecamp/omarchy\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/basecamp/omarchy\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "basecamp/omarchy\" data-hydro-click=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/basecamp/omarchy\" data-hydro-click=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "topics/react\" data-view-component=\"true\" class=\"overflow-hidden rounded-top-2 Link border-bottom d-block position-relative\"><div\n          class=\"position-absolute top-0 right-0 bottom-0 left-0\"\n          style=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/react\" data-view-component=\"true\" class=\"overflow-hidden rounded-top-2 Link border-bottom d-block position-relative\"><div\n          class=\"position-absolute top-0 right-0 bottom-0 left-0\"\n          style=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "topics/react\" data-view-component=\"true\" class=\"Link",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/topics/react\" data-view-component=\"true\" class=\"Link",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "unslothai/unsloth\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/unslothai/unsloth\" data-view-component=\"true\" class=\"Link text-bold wb-break-word",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "unslothai/unsloth\" data-hydro-click=",
+    "tagline": "GitHub Explore",
+    "url": "https://github.com/unslothai/unsloth\" data-hydro-click=",
+    "votes": 0,
+    "source": "GitHub Explore",
+    "scrapedAt": "2026-08-17T08:37:21.697Z"
+  },
+  {
+    "name": "I thought I was building a C replacement. I was wrong",
+    "tagline": "c, programming",
+    "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
+    "votes": 74,
+    "source": "Lobste.rs",
+    "comments": 43,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Every Fucking Website",
+    "tagline": "satire, vibecoding, web",
+    "url": "https://op.tngl.io/every-fucking-website/",
+    "votes": 68,
+    "source": "Lobste.rs",
+    "comments": 31,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "A faster way to calculate the day-of-the-week",
+    "tagline": "assembly, c++, math, performance",
+    "url": "https://www.benjoffe.com/fast-day-of-week",
+    "votes": 36,
+    "source": "Lobste.rs",
+    "comments": 4,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Protecting the Rust standard library from accidental breakage",
+    "tagline": "rust",
+    "url": "https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage/",
+    "votes": 43,
+    "source": "Lobste.rs",
+    "comments": 4,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "A Third World Embedded Engineer Responds to \"RISC-V: They Should Have Known Better\"",
+    "tagline": "a11y, culture, hardware",
+    "url": "https://rvembedded.com/blog_post/12/",
+    "votes": 60,
+    "source": "Lobste.rs",
+    "comments": 15,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "You can just choose how many bugs you want now",
+    "tagline": "vibecoding",
+    "url": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
+    "votes": 14,
+    "source": "Lobste.rs",
+    "comments": 8,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "People of ACM - Russ Cox",
+    "tagline": "go, person",
+    "url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+    "votes": 19,
+    "source": "Lobste.rs",
+    "comments": 5,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Models Are Getting Dumber on Purpose",
+    "tagline": "vibecoding",
+    "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+    "votes": 13,
+    "source": "Lobste.rs",
+    "comments": 3,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "AI Software Development – What Does The Data Say?",
+    "tagline": "vibecoding",
+    "url": "https://codemanship.wordpress.com/2026/08/12/ai-software-development-what-does-the-data-say/",
+    "votes": 7,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "A Tour of Magit's Status Interface",
+    "tagline": "emacs, vcs",
+    "url": "https://heiwiper.com/posts/magit-status-tour/",
+    "votes": 33,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Pony's Arena Allocator",
+    "tagline": "programming",
+    "url": "https://www.ponylang.io/blog/2026/08/ponys-arena-allocator/",
+    "votes": 7,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "SCM_RIGHTS API quirks (2019)",
+    "tagline": "api, c, unix",
+    "url": "https://gist.github.com/kentonv/bc7592af98c68ba2738f4436920868dc",
+    "votes": 4,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Human Interface Guidelines from various platforms",
+    "tagline": "a11y, design, graphics",
+    "url": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these/",
+    "votes": 10,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "What are you doing this week?",
+    "tagline": "ask, programming",
+    "url": "https://lobste.rs/s/5p0kgt/what_are_you_doing_this_week",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Four levels of in-place initialization",
+    "tagline": "plt",
+    "url": "https://blog.yoshuawuyts.com/four-levels-of-in-place-initialization/",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Build-time systemd schedule",
+    "tagline": "nix",
+    "url": "https://gvolpe.com/blog/systemd-schedule/",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "(What Comes) After FOSS?",
+    "tagline": "philosophy",
+    "url": "https://infrastructureinsights.fund/projects/what-comes-after-foss/",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Anti-Social Media",
+    "tagline": "web",
+    "url": "https://christianheilmann.com/2026/08/11/anti-social-media/",
+    "votes": 8,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Agents in Orbs",
+    "tagline": "vibecoding",
+    "url": "https://ampcode.com/news/agents-in-orbs",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "SIMD in the 90s: Programming Intel's Pentium MMX",
+    "tagline": "assembly, performance",
+    "url": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+    "votes": 1,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "The Limits of AI (1985)",
+    "tagline": "ai, philosophy, video",
+    "url": "https://www.youtube.com/watch?v=ePsQksj99LM",
+    "votes": 2,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "WEBMASTER@ a manifesto for everyone",
+    "tagline": "culture, historical, web",
+    "url": "https://brennan.day/webmaster-a-manifesto-for-everyone/",
+    "votes": 4,
+    "source": "Lobste.rs",
+    "comments": 0,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Monitoring SystemD services with Healthchecks.io",
+    "tagline": "systemd",
+    "url": "https://passbe.com/2022/healthchecks-io-systemd-checks/",
+    "votes": 7,
+    "source": "Lobste.rs",
+    "comments": 1,
+    "scrapedAt": "2026-08-17T08:37:22.105Z"
+  },
+  {
+    "name": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-17T08:37:22.923Z"
+  },
+  {
+    "name": "Why people aren&#8217;t buying Mark Zuckerberg’s AI future",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-17T08:37:22.923Z"
+  },
+  {
+    "name": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-17T08:37:22.923Z"
+  },
+  {
+    "name": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+    "tagline": "",
+    "url": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+    "votes": 0,
+    "source": "TechCrunch RSS",
+    "scrapedAt": "2026-08-17T08:37:22.923Z"
+  },
+  {
+    "name": "<![CDATA[I’m hooked on Peak Design’s new City bags]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/tech/980137/peak-design-city-line-review",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "<![CDATA[OpenAI reportedly disbanded its preparedness team]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "<![CDATA[Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "<![CDATA[Amazon is trying to crush class-action suits before they get started]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/tech/980752/amazon-class-action-arbitration-terms-and-conditions",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "<![CDATA[ChatGPT’s Computer History tracks your clicks and keystrokes]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "<![CDATA[Rogue AI aren’t science fiction anymore]]>",
+    "tagline": "",
+    "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+    "votes": 0,
+    "source": "The Verge",
+    "scrapedAt": "2026-08-17T08:37:23.040Z"
+  },
+  {
+    "name": "Astronomers Discover the Existence of a Black Hole Star",
+    "tagline": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spot",
+    "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
+    "tagline": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
+    "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
+    "tagline": "In 2027 and 2028, there will be two spectacular, long-duration solar eclipses. Here’s what you need to know about them.",
+    "url": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "Someone Finally Fixed Installing Apps on a Mac",
+    "tagline": "The installation utility EasyDMG makes it so you never drag and drop an icon again.",
+    "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "TerraMow V1000 Review: Show Your Lawn Some Love",
+    "tagline": "With automatic mapping, Spot Mode functionality, and smart AI cameras, the TerraMow V1000 is the complete package.",
+    "url": "https://www.wired.com/review/terramow-v1000/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+    "tagline": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fle",
+    "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+    "tagline": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help",
+    "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
+    "votes": 0,
+    "source": "Wired",
+    "scrapedAt": "2026-08-17T08:37:23.095Z"
+  },
+  {
+    "name": "<![CDATA[Cutting RAG inference costs 6x starts with deciding what never reaches the LLM]]>",
+    "tagline": "Most teams building retrieval augmented generation (RAG) systems for high stakes classification make the same architectu",
+    "url": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
+    "votes": 0,
+    "source": "VentureBeat",
+    "scrapedAt": "2026-08-17T08:37:23.897Z"
+  },
+  {
+    "name": "<![CDATA[DeepSeek's top-ranked V4 Flash stumbles on real agent tasks as its prices surge]]>",
+    "tagline": "DeepSeek&#x27;s V4 Flash has topped model leaderboards and been hailed by developers as a &quot;total monster&quot; sinc",
+    "url": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
+    "votes": 0,
+    "source": "VentureBeat",
+    "scrapedAt": "2026-08-17T08:37:23.897Z"
+  },
+  {
+    "name": "<![CDATA[Another woman joins lawsuit accusing Grok of generating CSAM]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2237875/another-woman-joins-lawsuit-accusing-grok-of-generating-csam/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.022Z"
+  },
+  {
+    "name": "<![CDATA[Turn on these settings to protect your Android phone from theft]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236816/turn-on-settings-protect-android-phone-from-theft/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Is buying a OnePlus phone in 2026 still a good idea?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236810/is-buying-oneplus-phone-still-good-idea-in-2026/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Do you really need an antivirus app on your Android?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236805/android-phones-antivirus-app-guidance/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Here's why retro games look better on old CRT TVs]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236809/why-retro-games-look-better-old-crt-tv/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[You might want to skip Newegg's GPU trade-in program]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236808/might-want-to-skip-newegg-gpu-trade-in-program-reasons/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Android Auto vs Apple CarPlay: What features set them apart]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234248/android-auto-vs-apple-carplay-features-comparison/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[How to lease an iPhone instead of buying one]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234247/how-to-lease-iphone-instead-of-buying/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[What is the Retro app for and how do you use it?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234246/retro-app-what-is-it-how-to-use/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Is the MacBook Pro M5 still worth buying after the price hike?]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234244/is-macbook-pro-m5-still-worth-after-price-hike/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Nintendo GameCube discs were small for a reason]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2234243/nintendo-gamecube-small-discs-reason/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[How to set up your emergency contacts and medical ID on your iPhone]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236803/how-to-set-up-emergency-contact-medical-id-on-iphone/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[Dolby Vision is on Netflix but you'll need these things first]]>",
+    "tagline": "",
+    "url": "https://www.engadget.com/2236802/dolby-vision-on-netflix-things-needed-first/",
+    "votes": 0,
+    "source": "Engadget",
+    "scrapedAt": "2026-08-17T08:37:24.023Z"
+  },
+  {
+    "name": "<![CDATA[ AI’s trillion dollar token reckoning ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/ais-trillion-dollar-token-reckoning",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Securing adoption in the era of shadow AI ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/securing-adoption-in-the-era-of-shadow-ai",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Lanterns episode 1 makes an incredibly bold storytelling choice that I didn't see coming — and now I've got a wild theory about one of the new HBO Max show's dual timelines ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/streaming/hbo-max/lanterns-episode-1-ending-explained",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ A half-price Galaxy Watch 8 headlines Samsung's August Secret Sale, and there's tempting reductions on phones and TVs too ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/health-fitness/smartwatches/a-half-price-galaxy-watch-8-headlines-samsungs-august-secret-sale-and-theres-tempting-reductions-on-phones-and-tvs-too",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ The US Army is opening up its training centers for private firms to test out new drones ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/the-us-army-is-opening-up-its-training-centers-for-private-firms-to-test-out-new-drones",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Russian body, Desi brain: How India is turning the Su-30MKI into a lethal stealth hunter ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/russian-body-desi-brain-how-india-is-turning-the-su-30mki-into-a-lethal-stealth-hunter",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ US Air Force wants AI help to keep its Minuteman III nukes ticking until they're 66, or maybe 80 ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/us-air-force-wants-ai-help-to-keep-its-minuteman-iii-nukes-ticking-until-theyre-66-or-maybe-80",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Quote of the day by Elon Musk: '[The Tesla Bot] has the potential to be a generalized substitute for human labor over time' — a bold prediction on the future of work ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/quote-of-the-day-by-elon-musk-the-tesla-bot-has-the-potential-to-be-a-generalized-substitute-for-human-labor-over-time-a-bold-prediction-on-the-future-of-work",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ The Last House review: this tedious thriller is the worst Netflix movie of the year, and it's nothing like the trailer promised ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/streaming/netflix/the-last-house-review-this-tedious-thriller-is-the-worst-netflix-movie-of-the-year-and-its-nothing-like-the-trailer-promised",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ The Pentagon's next big project is hypersonic scramjet cruise missiles able to evade enemy interceptors ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/the-pentagons-next-big-project-is-hypersonic-scramjet-cruise-missiles-able-to-evade-enemy-interceptors",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Kioxia showcases the world’s fastest SSD with mind-blowing 10M IOPS and a staggering 50 DWPD endurance ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/kioxia-showcases-the-worlds-fastest-ssd-with-mind-blowing-10m-iops-and-a-staggering-50-dwpd-endurance",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ 4 of the most detailed and sonically stellar elite hi-fi speakers I heard Audio at Audio Advice Live ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/audio/speakers/4-of-the-most-detailed-and-sonically-stellar-elite-hi-fi-speakers-i-heard-audio-at-audio-advice-live",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ I plunged into Subnautica 2 Early Access and can't wait to go deeper ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/gaming/i-plunged-into-subnautica-2-early-access-and-cant-wait-to-go-deeper",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Sony Bravia 7 II vs Samsung R95H: which RGB TV wins, and does either model topple OLED? I tested them side-by-side to find out ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/televisions/sony-bravia-7-ii-vs-samsung-r95h-which-rgb-tv-wins-and-does-either-model-topple-oled-i-tested-them-side-by-side-to-find-out",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "<![CDATA[ Russia's accelerating Starlink rival development means that war in space is not just probable; it's inevitable ]]>",
+    "tagline": "",
+    "url": "https://www.techradar.com/pro/russias-accelerating-starlink-rival-development-means-that-war-in-space-is-not-just-probable-its-inevitable",
+    "votes": 0,
+    "source": "TechRadar",
+    "scrapedAt": "2026-08-17T08:37:24.105Z"
+  },
+  {
+    "name": "Linux 7.2 Released With Faster I/O, New AMD &amp; Intel Driver Improvements",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Linux-7.2-Released",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "GIMP Making Progress On New Project File Format After Nearly 30 Years With XCF",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/GIMP-New-File-Format-2026",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "tlbi=  Boot Option Submitted Ahead Of Linux 7.2 Kernel Release",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Linux-7.2-x86-urgent-tlbi",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "Debian Marks 33rd Birthday As One Of The Oldest Maintained Linux Distros",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Debian-33-Birthday",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "AVX-512 xor_gen Continues To Look Exciting For Helping Linux RAID With Modern CPUs",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/AVX-512-xor-gen-v4",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "Linux 7.3 binfmt_misc To Allow BPF Programs To Dynamically Choose Execution Environments",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/Linux-7.3-binfmt-misc",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "New Linux Driver Enables 12VHPWR Monitoring For ASUS ROG Astral Graphics Cards",
+    "tagline": "Phoronix tech news",
+    "url": "https://www.phoronix.com/news/ASUS-ROG-Astral-12VHPWR",
+    "votes": 0,
+    "source": "Phoronix",
+    "scrapedAt": "2026-08-17T08:37:24.281Z"
+  },
+  {
+    "name": "The 7.2 kernel has been released",
+    "tagline": "Linux Weekly News",
+    "url": "https://lwn.net/Articles/1088991/",
+    "votes": 0,
+    "source": "LWN",
+    "scrapedAt": "2026-08-17T08:37:24.409Z"
+  },
+  {
+    "name": "Project 221071765",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/221071765",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 252997845",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/252997845",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 253644101",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/253644101",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 223546503",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/223546503",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 243978371",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243978371",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 250482593",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/250482593",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 243897495",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243897495",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 245846251",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/245846251",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 99801649",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/99801649",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 237929031",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/237929031",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 247571813",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/247571813",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 243844087",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/243844087",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 219906905",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/219906905",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 250686825",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/250686825",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "Project 207447245",
+    "tagline": "Behance project",
+    "url": "https://www.behance.net/gallery/207447245",
+    "votes": 0,
+    "source": "Behance",
+    "scrapedAt": "2026-08-17T08:37:29.239Z"
+  },
+  {
+    "name": "assets/application-e8b1f3e80c6533871930b53ec8e1108ca98fb04129ba089b3ae8f0296e7cf07e.css\" media=\"(prefers-color-scheme: light)",
+    "tagline": "GitLab project",
+    "url": "https://gitlab.com/assets/application-e8b1f3e80c6533871930b53ec8e1108ca98fb04129ba089b3ae8f0296e7cf07e.css\" media=\"(prefers-color-scheme: light)",
+    "votes": 0,
+    "source": "GitLab",
+    "scrapedAt": "2026-08-17T08:37:31.201Z"
+  },
+  {
+    "name": "assets/application_dark-1acccfd43eff060b68e1905da109a12c1e658696a6260f118ca8c35317a769b9.css\" media=\"(prefers-color-scheme: dark)",
+    "tagline": "GitLab project",
+    "url": "https://gitlab.com/assets/application_dark-1acccfd43eff060b68e1905da109a12c1e658696a6260f118ca8c35317a769b9.css\" media=\"(prefers-color-scheme: dark)",
+    "votes": 0,
+    "source": "GitLab",
+    "scrapedAt": "2026-08-17T08:37:31.201Z"
+  },
+  {
+    "name": "assets/tailwind-a4cea8904fa484f2caddc655b7296ed716a6005e90978d13f3dc109f9ae99e6b.css",
+    "tagline": "GitLab project",
+    "url": "https://gitlab.com/assets/tailwind-a4cea8904fa484f2caddc655b7296ed716a6005e90978d13f3dc109f9ae99e6b.css",
+    "votes": 0,
+    "source": "GitLab",
+    "scrapedAt": "2026-08-17T08:37:31.201Z"
+  },
+  {
     "name": "What happens when an LLM never sees material beyond fifth grade?",
     "tagline": "littlelearner-ll.github.io",
     "url": "https://littlelearner-ll.github.io/",
